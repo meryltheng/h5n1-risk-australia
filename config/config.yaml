@@ -1,0 +1,45 @@
+# config.yaml
+
+general:
+  seed: 2026
+  country_iso3: "AUS"
+  extent_lonlat: [112.9211, -45.1169, 155.1092, -9.1422]   # xmin, ymin, xmax, ymax; excludes external territories  
+  proj_crs: "EPSG:3577"         # Australian Albers (equal-area)
+  cell_res_km: 25               # grid cell width (km)
+  buffer_dist: 200              # buffer around the boundary when building the grid (km)
+
+outbreak_data:
+  daff_snapshot: "20261021"
+  wahis_file: "data/raw/WAHIS/Outbreaks_Aus-H5N1_20260810.csv"
+
+kernel:
+  step_days: 7                 # length of a time step (days)
+  inf_offset_days: -7          # Δ: days relative to detection that a cell becomes infectious
+  inf_period_days: 21          # P: days a cell stays infectious
+  bin_km: 1
+  max_dist_km: null            # null = no limit
+  mu_km: null                  # null = no long-range component
+  kernels: ["ftail", "pow2", "exp2", "exp3"]
+  plot_xlim_km: 1000
+
+kernel_layer:                # separate from `kernel` so a refit isn't triggered
+  predict_kernel: null       # null = best by AIC; otherwise, "pow2" or others (check estimates)
+
+ebird:
+  version: 2023                      # Status & Trends release year
+  pattern: "abundance_median_27km"   # weekly median relative abundance, 27 km
+  species_list:
+    - "Great Crested Tern"
+    - "Silver Gull"
+    - "Pacific Black Duck"
+    - "Gray Teal"
+    - "Black Swan"
+    - "Australian Ibis"
+    - "Pied Cormorant"
+    - "Little Pied Cormorant"
+  temporal_res: "month"     # convert to "month" or keep as default "week"
+
+risk:
+  risk_month: 11                # month of the waterbird climatology (1 = Jan)
+  spillover: "multiplicative"   # or "additive" (as in R)
+  poultry_half_sat: null        # birds per km²; null = median of cells with poultry

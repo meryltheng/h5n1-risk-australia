@@ -1,0 +1,28 @@
+configfile: "config/config.yaml"
+
+include: "rules/download_abs_locs.smk"
+include: "rules/scrape_daff_events.smk"
+include: "rules/geocode_daff.smk"
+include: "rules/combine_outbreaks.smk"
+
+include: "rules/download_boundary.smk"
+include: "rules/prep_boundary.smk"
+
+include: "rules/make_template.smk"
+
+include: "rules/download_poultry.smk"
+include: "rules/prep_poultry.smk"
+
+include: "rules/download_ebird.smk"
+include: "rules/prep_wildbird.smk"
+
+include: "rules/fit_kernels.smk"
+include: "rules/predict_kernel_layer.smk"
+include: "rules/combine_risk.smk"
+
+rule all:
+    input:
+        "results/kernel/kernel_layer.tif",
+        "data/processed/poultry.tif",
+        "data/processed/waterbird_index.tif",
+        "results/risk/risk_layers.tif",
