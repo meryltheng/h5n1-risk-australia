@@ -1,0 +1,714 @@
+date_sampled,jurisdiction,lga,locality,common_name,scientific_name,record_id,data_refreshed_utc,retrieved_on
+2026-10-14,TAS,Break O'Day,Stieglitz,Forest Raven,Corvus tasmanicus,TAS-WB-052,2026-10-20T02:08:30.41,2026-10-21
+2026-10-13,VIC,Bass Coast,Summerlands,Greater Crested Tern,Thalasseus bergii,VIC-WB-234,2026-10-20T02:08:30.41,2026-10-21
+2026-10-12,SA,Copper Coast,Port Hughes,Pacific Gull,Larus pacificus,SA-WB-322,2026-10-20T02:08:30.41,2026-10-21
+2026-10-10,VIC,Bayside (Vic.),Beaumaris,Greater Crested Tern,Thalasseus bergii,VIC-WB-233,2026-10-20T02:08:30.41,2026-10-21
+2026-10-09,TAS,Break O'Day,Moulting Bay,Pacific Gull,Larus pacificus,TAS-WB-050,2026-10-20T02:08:30.41,2026-10-21
+2026-10-08,VIC,East Gippsland,Mallacoota,White-bellied Sea-Eagle,Icthyophaga leucogaster,VIC-WB-231,2026-10-20T02:08:30.41,2026-10-21
+2026-10-07,VIC,Bass Coast,Cape Woolamai,Greater Crested Tern,Thalasseus bergii,VIC-WB-235,2026-10-20T02:08:30.41,2026-10-21
+2026-10-07,VIC,East Gippsland,Mallacoota,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-232,2026-10-20T02:08:30.41,2026-10-21
+2026-10-07,VIC,East Gippsland,Ocean Grange,White-fronted Tern,Sterna striata,VIC-WB-229,2026-10-20T02:08:30.41,2026-10-21
+2026-10-07,VIC,Wellington,Seaspray,Shy Albatross,Thalassarche cauta,VIC-WB-230,2026-10-20T02:08:30.41,2026-10-21
+2026-10-06,NSW,Canterbury-Bankstown,Punchbowl,Ibis,Threskiornithidae sp.,NSW-WB-071,2026-10-20T02:08:30.41,2026-10-21
+2026-10-06,SA,West Torrens,Regency Park,Greater Crested Tern,Thalasseus bergii,SA-WB-321,2026-10-20T02:08:30.41,2026-10-21
+2026-10-04,SA,Whyalla,Point Lowly,Greater Crested Tern,Thalasseus bergii,SA-WB-320,2026-10-20T02:08:30.41,2026-10-21
+2026-10-04,TAS,Burnie,Cooee,Little Penguin,Eudyptula minor,TAS-WB-048,2026-10-20T02:08:30.41,2026-10-21
+2026-10-04,VIC,Wellington,Seaspray,Common Tern,Sterna hirundo,VIC-WB-228,2026-10-20T02:08:30.41,2026-10-21
+2026-10-03,SA,Lower Eyre,Dangerous Reef,Greater Crested Tern,Thalasseus bergii,SA-WB-319,2026-10-20T02:08:30.41,2026-10-21
+2026-10-03,VIC,East Gippsland,Eagle Point,Terns,Thalasseus sp.,VIC-WB-226,2026-10-20T02:08:30.41,2026-10-21
+2026-10-02,TAS,Dorset,Bridport,Greater Crested Tern,Thalasseus bergii,TAS-WB-047,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,NSW,Bega Valley,Bermagui,Australian Magpie,Gymnorhina tibicen,NSW-WB-069,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,NSW,Lake Macquarie,Swansea,Greater Crested Tern,Thalasseus bergii,NSW-WB-070,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,SA,Ceduna,Ceduna,Fluttering Shearwater,Puffinus gavia,SA-WB-317,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,SA,Port Lincoln,Port Lincoln,Greater Crested Tern,Thalasseus bergii,SA-WB-318,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,TAS,Flinders (Tas.),"Leeka, Flinders Island",Flinders Island Black Currawong,Strepera fuliginosa parvior,TAS-WB-049,2026-10-20T02:08:30.41,2026-10-21
+2026-10-01,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-225,2026-10-20T02:08:30.41,2026-10-21
+2026-09-30,VIC,Mornington Peninsula,Crib Point,Greater Crested Tern,Thalasseus bergii,VIC-WB-221,2026-10-20T02:08:30.41,2026-10-21
+2026-09-29,SA,Kangaroo Island,Penneshaw,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-316,2026-10-20T02:08:30.41,2026-10-21
+2026-09-29,VIC,Colac Otway,Apollo Bay,Australian fur seal,Arctocephalus pusillus doriferus,VIC-WM-007,2026-10-20T02:08:30.41,2026-10-21
+2026-09-29,VIC,East Gippsland,Bemm River,Greater Crested Tern,Thalasseus bergii,VIC-WB-222,2026-10-20T02:08:30.41,2026-10-21
+2026-09-29,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-223,2026-10-20T02:08:30.41,2026-10-21
+2026-09-29,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-224,2026-10-20T02:08:30.41,2026-10-21
+2026-09-28,SA,Kangaroo Island,Nepean Bay,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-315,2026-10-20T02:08:30.41,2026-10-21
+2026-09-28,SA,Victor Harbor,Encounter Bay,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-314,2026-10-20T02:08:30.41,2026-10-21
+2026-09-28,VIC,Hobsons Bay,Williamstown,Greater Crested Tern,Thalasseus bergii,VIC-WB-217,2026-10-20T02:08:30.41,2026-10-21
+2026-09-28,VIC,South Gippsland,Port Welshpool,Greater Crested Tern,Thalasseus bergii,VIC-WB-219,2026-10-20T02:08:30.41,2026-10-21
+2026-09-27,VIC,East Gippsland,Corringle,Red Fox,Vulpes vulpes,VIC-FM-003,2026-10-20T02:08:30.41,2026-10-21
+2026-09-26,VIC,Kingston (Vic.),Parkdale,Greater Crested Tern,Thalasseus bergii,VIC-WB-213,2026-10-20T02:08:30.41,2026-10-21
+2026-09-25,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-215,2026-10-20T02:08:30.41,2026-10-21
+2026-09-25,VIC,South Gippsland,Walkerville North,Greater Crested Tern,Thalasseus bergii,VIC-WB-220,2026-10-20T02:08:30.41,2026-10-21
+2026-09-25,VIC,Surf Coast,Point Roadknight,Greater Crested Tern,Thalasseus bergii,VIC-WB-216,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,NSW,Nambucca Valley,Nambucca Heads,Greater Crested Tern,Thalasseus bergii,NSW-WB-068,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,SA,Coorong,Meningie,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-312,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,TAS,Devonport,Devonport,Greater Crested Tern,Thalasseus bergii,TAS-WB-046,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,VIC,East Gippsland,Bemm River,Greater Crested Tern,Thalasseus bergii,VIC-WB-214,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,VIC,East Gippsland,Metung,Australian Raven,Corvus coronoides,VIC-WB-202,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,VIC,Greater Geelong,Barwon Heads River,Greater Crested Tern,Thalasseus bergii,VIC-WB-204,2026-10-20T02:08:30.41,2026-10-21
+2026-09-24,VIC,South Gippsland,Walkerville South,Raven sp.,Corvus sp.,VIC-WB-218,2026-10-20T02:08:30.41,2026-10-21
+2026-09-23,SA,Yankalilla,Rapid Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-311,2026-10-20T02:08:30.41,2026-10-21
+2026-09-23,VIC,East Gippsland,Lakes Entrance,Pacific Gull,Larus pacificus,VIC-WB-205,2026-10-20T02:08:30.41,2026-10-21
+2026-09-23,VIC,East Gippsland,Raymond Island,Greater Crested Tern,Thalasseus bergii,VIC-WB-203,2026-10-20T02:08:30.41,2026-10-21
+2026-09-23,VIC,Glenelg,Portland West,Dolphins,Delphinidae sp.,VIC-WM-006,2026-10-20T02:08:30.41,2026-10-21
+2026-09-23,VIC,Wellington,Loch Sport,Greater Crested Tern,Thalasseus bergii,VIC-WB-211,2026-10-20T02:08:30.41,2026-10-21
+2026-09-22,VIC,East Gippsland,Paynesville,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-212,2026-10-20T02:08:30.41,2026-10-21
+2026-09-22,VIC,Greater Geelong,Breamlea,Australasian Gannet,Morus serrator,VIC-WB-193,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,NSW,Sutherland,Garie Beach,Greater Crested Tern,Thalasseus bergii,NSW-WB-065,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,TAS,Huon Valley,Macquarie Island,Southern elephant seal,Mirounga leonina,TAS-WM-001,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,Bass Coast,"Ventnor, Summerlands",Greater Crested Tern,Thalasseus bergii,VIC-WB-194,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-206,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-207,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-208,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-199,2026-10-20T02:08:30.41,2026-10-21
+2026-09-21,VIC,Port Phillip,Port Melbourne,Gulls,Laridae sp.,VIC-WB-197,2026-10-20T02:08:30.41,2026-10-21
+2026-09-20,SA,Lower Eyre,Lincol National Park,Pacific Gull,Larus pacificus,SA-WB-309,2026-10-20T02:08:30.41,2026-10-21
+2026-09-20,VIC,East Gippsland,Raymond Island,Pacific Gull,Larus pacificus,VIC-WB-200,2026-10-20T02:08:30.41,2026-10-21
+2026-09-19,NSW,Sutherland,Kurnell,Greater Crested Tern,Thalasseus bergii,NSW-WB-063,2026-10-20T02:08:30.41,2026-10-21
+2026-09-19,SA,Alexandrina,Milang,Greater Crested Tern,Thalasseus bergii,SA-WB-310,2026-10-20T02:08:30.41,2026-10-21
+2026-09-19,TAS,Huon Valley,Dover,Pacific Gull,Larus pacificus,TAS-WB-045,2026-10-20T02:08:30.41,2026-10-21
+2026-09-19,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-209,2026-10-20T02:08:30.41,2026-10-21
+2026-09-19,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-210,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,NSW,Coffs Harbour,Sawtell,Greater Crested Tern,Thalasseus bergii,NSW-WB-067,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,NSW,Eurobodalla,Batemans Bay,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-062,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,NSW,Eurobodalla,Tuross Heads,Whistling Kite,Haliastur sphenurus,NSW-WB-066,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,NSW,Port Stephens,Bobs Farm,Greater Crested Tern,Thalasseus bergii,NSW-WB-060,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,NSW,Port Stephens,Bobs Farm,Wedge-tailed Shearwater,Ardenna pacifica,NSW-WB-059,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,SA,Kangaroo Island,North Page,Australian sea lion,Neophoca cinerea,SA-WM-008,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,SA,Kangaroo Island,The Pages,Australian sea lion,Neophoca cinerea,SA-WM-007,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,East Gippsland,Ocean Grange,Greater Crested Tern,Thalasseus bergii,VIC-WB-191,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,East Gippsland,Paynesville,Terns,Sterninae sp.,VIC-WB-201,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,Port Phillip,Middle Park,Tern sp.,Laridae sp.,VIC-WB-185,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,South Gippsland,Wilsons Promontory,Australasian Gannet,Morus serrator,VIC-WB-188,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,Wellington,Loch Sport,Greater Crested Tern,Thalasseus bergii,VIC-WB-196,2026-10-20T02:08:30.41,2026-10-21
+2026-09-18,VIC,Wellington,Loch Sport Jetty,Greater Crested Tern,Thalasseus bergii,VIC-WB-195,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,NSW,Bayside (NSW),Dolls Point,Greater Crested Tern,Thalasseus bergii,NSW-WB-056,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,NSW,Central Coast (NSW),Tuggerah,Greater Crested Tern,Thalasseus bergii,NSW-WB-057,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,NSW,Ku-ring-gai,Roseville,Greater Crested Tern,Thalasseus bergii,NSW-WB-064,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,NSW,Port Stephens,Bobs Farm,Shy Albatross,Thalassarche cauta,NSW-WB-061,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,NSW,Shellharbour,Shell Cove,Greater Crested Tern,Thalasseus bergii,NSW-WB-058,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,SA,Alexandrina,Hindmarsh Island,Australian Magpie,Gymnorhina tibicen,SA-WB-307,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,SA,Tumby Bay,Lipson,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-308,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,SA,Victor Harbor,Victor Harbor,Australasian Gannet,Morus serrator,SA-WB-306,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,SA,Yankalilla,Carrickalinga,Fluttering Shearwater,Puffinus gavia,SA-WB-305,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,VIC,East Gippsland,Lakes Entrance,Greater Crested Tern,Thalasseus bergii,VIC-WB-182,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-186,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-187,2026-10-20T02:08:30.41,2026-10-21
+2026-09-17,VIC,Moyne,Peterborough,Little Penguin,Eudyptula minor,VIC-WB-189,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Ceduna,Nuyts Reef,Greater Crested Tern,Thalasseus bergii,SA-WB-304,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Elliston,Waldegrave Islands,Greater Crested Tern,Thalasseus bergii,SA-WB-301,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Holdfast Bay,Glenelg,Pacific Gull,Larus pacificus,SA-WB-299,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Kangaroo Island,Emu Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-298,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Lower Eyre,Rocky Island,Little Penguin,Eudyptula minor,SA-WB-300,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Streaky Bay,Jones Island,Greater Crested Tern,Thalasseus bergii,SA-WB-302,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,SA,Streaky Bay,Nicolas Baudin Island,Greater Crested Tern,Thalasseus bergii,SA-WB-303,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,TAS,Huon Valley,Port Huon,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-044,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,VIC,Bass Coast,Summerlands,Pacific Gull,Larus pacificus,VIC-WB-227,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,VIC,Bass Coast,Ventnor,Little Penguin,Eudyptula minor,VIC-WB-190,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,VIC,Greater Geelong,Barwon Heads,Greater Crested Tern,Thalasseus bergii,VIC-WB-181,2026-10-20T02:08:30.41,2026-10-21
+2026-09-16,VIC,Kingston (Vic.),Edithvale,Australasian Gannet,Morus serrator,VIC-WB-183,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,NSW,Central Coast (NSW),Long Jetty,Greater Crested Tern,Thalasseus bergii,NSW-WB-053,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,NSW,Wollongong,Coledale,Greater Crested Tern,Thalasseus bergii,NSW-WB-049,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,SA,Kangaroo Island,Stokes Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-297,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,TAS,Flinders (Tas.),Loccota,Pacific Gull,Larus pacificus,TAS-WB-040,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,TAS,Glamorgan-Spring Bay,Orford,Greater Crested Tern,Thalasseus bergii,TAS-WB-043,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,TAS,Huon Valley,Dover,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-041,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,Bass Coast,Kilcunda,Greater Crested Tern,Thalasseus bergii,VIC-WB-192,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-184,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,Kingston (Vic.),Aspendale,Australasian Gannet,Morus serrator,VIC-WB-180,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,Macedon Ranges,Macedon,Greater Crested Tern,Thalasseus bergii,VIC-WB-177,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,Manningham,Templestowe Lower,Swamp Harrier,Circus approximans,VIC-WB-179,2026-10-20T02:08:30.41,2026-10-21
+2026-09-15,VIC,South Gippsland,Tarwin Lower,Red Fox,Vulpes vulpes,VIC-FM-002,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,NSW,Bega Valley,Tathra,Greater Crested Tern,Thalasseus bergii,NSW-WB-046,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,NSW,Central Coast (NSW),Booker Bay,Greater Crested Tern,Thalasseus bergii,NSW-WB-044,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,NSW,Coffs Harbour,Coffs Harbour,Greater Crested Tern,Thalasseus bergii,NSW-WB-042,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,NSW,Eurobodalla,Barunguba -Montague Island,Greater Crested Tern,Thalasseus bergii,NSW-WB-054,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,SA,Holdfast Bay,Glenelg,Pacific Gull,Larus pacificus,SA-WB-294,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,SA,Port Adelaide Enfield,Taperoo,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-293,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,TAS,Glamorgan-Spring Bay,Douglas River,White-fronted Tern,Sterna striata,TAS-WB-042,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,VIC,East Gippsland,Mallacoota,Terns,Sterninae sp.,VIC-WB-198,2026-10-20T02:08:30.41,2026-10-21
+2026-09-14,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-178,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,NSW,Bega Valley,Pambula,Greater Crested Tern,Thalasseus bergii,NSW-WB-051,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,NSW,Eurobodalla,Narooma,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-055,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,NSW,Eurobodalla,Potato Point,White-bellied Sea-Eagle,Icthyophaga leucogaster,NSW-WB-045,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,NSW,Port Macquarie-Hastings,Bonny Hills,Greater Crested Tern,Thalasseus bergii,NSW-WB-041,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,SA,Alexandrina,Port Elliot,Greater Crested Tern,Thalasseus bergii,SA-WB-291,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,SA,Yorke Peninsula,Corny Point,Pacific Gull,Larus pacificus,SA-WB-292,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,TAS,Central Coast (Tas.),Penguin,Little Penguin,Eudyptula minor,TAS-WB-039,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,TAS,West Coast,Strahan,Greater Crested Tern,Thalasseus bergii,TAS-WB-038,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-171,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,VIC,East Gippsland,Raymond Island,Greater Crested Tern,Thalasseus bergii,VIC-WB-174,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,VIC,Gabo Island (Uninc),Gabo Island,Greater Crested Tern,Thalasseus bergii,VIC-WB-168,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,VIC,Gabo Island (Uninc),Gabo Island,Long-nosed fur seal,Arctocephalus forsteri,VIC-WM-004,2026-10-20T02:08:30.41,2026-10-21
+2026-09-13,VIC,Greater Geelong,Ocean Grove,Greater Crested Tern,Thalasseus bergii,VIC-WB-166,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,NSW,Randwick,Port Botany,Greater Crested Tern,Thalasseus bergii,NSW-WB-036,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,NSW,Shoalhaven,Milton,Greater Crested Tern,Thalasseus bergii,NSW-WB-033,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,NSW,Sutherland,Cronulla,Greater Crested Tern,Thalasseus bergii,NSW-WB-034,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Alexandrina,Middleton,Greater Crested Tern,Thalasseus bergii,SA-WB-286,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Alexandrina,Port Elliot,Little Black Cormorant,Phalacrocorax sulcirostris,SA-WB-289,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Kangaroo Island,Stokes Bay,Australian Raven,Corvus coronoides,SA-WB-296,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Onkaparinga,Port Noarlunga South,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-287,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Victor Harbor,Encounter Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-288,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,SA,Whyalla,Whyalla,Greater Crested Tern,Thalasseus bergii,SA-WB-295,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-172,2026-10-20T02:08:30.41,2026-10-21
+2026-09-12,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-175,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Bega Valley,Mogareeka,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-050,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Eurobodalla,Barunguba -Montague Island,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-043,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Kiama,Kiama,Greater Crested Tern,Thalasseus bergii,NSW-WB-039,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Mid-Coast,Forster,Greater Crested Tern,Thalasseus bergii,NSW-WB-035,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Shoalhaven,Berry,Common Myna,Acridotheres tristis,NSW-WB-037,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,NSW,Shoalhaven,Berry,Greater Crested Tern,Thalasseus bergii,NSW-WB-040,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,SA,Charles Sturt,West Lakes,Greater Crested Tern,Thalasseus bergii,SA-WB-285,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,SA,Kangaroo Island,Seal Bay,Australian sea lion,Neophoca cinerea,SA-WM-006,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,SA,Yorke Peninsula,Edithburgh,Australian Pelican,Pelecanus conspicillatus,SA-WB-284,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,VIC,East Gippsland,Marlo,Greater Crested Tern,Thalasseus bergii,VIC-WB-173,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-176,2026-10-20T02:08:30.41,2026-10-21
+2026-09-11,VIC,Mornington Peninsula,Rye,Australian fur seal,Arctocephalus pusillus doriferus,VIC-WM-005,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,NSW,Bega Valley,Eden,White-fronted Tern,Sterna striata,NSW-WB-047,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,NSW,Bega Valley,Edrom,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-052,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,NSW,Bega Valley,Wallagoot,Greater Crested Tern,Thalasseus bergii,NSW-WB-048,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,NSW,Randwick,Malabar,Greater Crested Tern,Thalasseus bergii,NSW-WB-038,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,NSW,Wollongong,Bulli,Greater Crested Tern,Thalasseus bergii,NSW-WB-032,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,SA,Onkaparinga,Port Noarlunga South,Greater Crested Tern,Thalasseus bergii,SA-WB-281,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,SA,Southern Limestone Coast,Nene Valley,Little Penguin,Eudyptula minor,SA-WB-283,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,SA,Victor Harbor,Victor Harbor,Little Penguin,Eudyptula minor,SA-WB-282,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,VIC,East Gippsland,Lakes Entrance,Greater Crested Tern,Thalasseus bergii,VIC-WB-169,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,VIC,East Gippsland,Mallacoota,White-fronted Tern,Sterna striata,VIC-WB-170,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,VIC,Moyne,Port Fairy,Dolphins,Delphinidae sp.,VIC-WM-003,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,VIC,Queenscliffe,Queenscliff,Greater Crested Tern,Thalasseus bergii,VIC-WB-162,2026-10-20T02:08:30.41,2026-10-21
+2026-09-10,VIC,Warrnambool,Warrnambool,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-161,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,NSW,Central Coast (NSW),Woy Woy,Greater Crested Tern,Thalasseus bergii,NSW-WB-031,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,NSW,Eurobodalla,Moruya,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-028,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,NSW,Goulburn Mulwaree,Goulburn,Greater Crested Tern,Thalasseus bergii,NSW-WB-029,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,NSW,Mid-Coast,Hawks Nest,Greater Crested Tern,Thalasseus bergii,NSW-WB-030,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,NSW,Northern Beaches,Dee Why Beach,Greater Crested Tern,Thalasseus bergii,NSW-WB-026,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,Other,Jervis Bay Territory (Uninc),Jervis Bay,Greater Crested Tern,Thalasseus bergii,Other-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,TAS,Hobart,Hobart,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-037,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,VIC,Bass Coast,Ventnor,Greater Crested Tern,Thalasseus bergii,VIC-WB-163,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-158,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,VIC,East Gippsland,Metung,Greater Crested Tern,Thalasseus bergii,VIC-WB-159,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,VIC,Glen Eira,Caulfield,Greater Crested Tern,Thalasseus bergii,VIC-WB-160,2026-10-20T02:08:30.41,2026-10-21
+2026-09-09,VIC,Greater Geelong,Ocean Grove,Greater Crested Tern,Thalasseus bergii,VIC-WB-157,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,NSW,Eurobodalla,Congo,White-fronted Tern,Sterna striata,NSW-WB-027,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,SA,Victor Harbor,McCracken,Brown Skua,Stercorarius antarcticus,SA-WB-280,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,TAS,Circular Head,Stanley,White-faced Storm-Petrel,Pelagodroma marina,TAS-WB-036,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,TAS,Sorell,Dodges Ferry,Greater Crested Tern,Thalasseus bergii,TAS-WB-035,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,VIC,Bass Coast,"Cape Woolamai Beach, Phillip Island",Australasian Gannet,Morus serrator,VIC-WB-167,2026-10-20T02:08:30.41,2026-10-21
+2026-09-08,VIC,Surf Coast,Lorne,Greater Crested Tern,Thalasseus bergii,VIC-WB-154,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,SA,Coorong,Narrung,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-276,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,SA,Southern Limestone Coast,Carpenter Rocks,Fluttering Shearwater,Puffinus gavia,SA-WB-278,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,SA,Streaky Bay,Streaky Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-279,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,SA,West Torrens,West Beach,Little Penguin,Eudyptula minor,SA-WB-277,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,TAS,Break O'Day,Stieglitz,Greater Crested Tern,Thalasseus bergii,TAS-WB-034,2026-10-20T02:08:30.41,2026-10-21
+2026-09-07,TAS,George Town,Pipers River,Peregrine Falcon,Falco peregrinus,TAS-WB-033,2026-10-20T02:08:30.41,2026-10-21
+2026-09-06,SA,Adelaide Plains,Parham,Greater Crested Tern,Thalasseus bergii,SA-WB-275,2026-10-20T02:08:30.41,2026-10-21
+2026-09-05,NSW,Bega Valley,Eden,Greater Crested Tern,Thalasseus bergii,NSW-WB-025,2026-10-20T02:08:30.41,2026-10-21
+2026-09-05,NSW,Eurobodalla,Broulee,Greater Crested Tern,Thalasseus bergii,NSW-WB-024,2026-10-20T02:08:30.41,2026-10-21
+2026-09-05,TAS,Circular Head,Mawbanna,Forest Raven,Corvus tasmanicus,TAS-WB-032,2026-10-20T02:08:30.41,2026-10-21
+2026-09-05,TAS,Flinders (Tas.),"Whitemark, Flinders Island",Greater Crested Tern,Thalasseus bergii,TAS-WB-031,2026-10-20T02:08:30.41,2026-10-21
+2026-09-04,SA,Kingston (SA),Cape Jaffa,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-274,2026-10-20T02:08:30.41,2026-10-21
+2026-09-04,SA,Lower Eyre,Coffin Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-273,2026-10-20T02:08:30.41,2026-10-21
+2026-09-04,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-155,2026-10-20T02:08:30.41,2026-10-21
+2026-09-04,VIC,Glenelg,Cape Nelson,Common Dolphin,Delphinus delphis,VIC-WM-002,2026-10-20T02:08:30.41,2026-10-21
+2026-09-03,SA,Onkaparinga,Cherry Gardens,Greater Crested Tern,Thalasseus bergii,SA-WB-272,2026-10-20T02:08:30.41,2026-10-21
+2026-09-03,SA,Salisbury,Saint Kilda,Greater Crested Tern,Thalasseus bergii,SA-WB-265,2026-10-20T02:08:30.41,2026-10-21
+2026-09-03,SA,Wattle Range,Millicent,Brown Goshawk,Tachyspiza fasciata,SA-WB-271,2026-10-20T02:08:30.41,2026-10-21
+2026-09-03,SA,West Torrens,Netley,Greater Crested Tern,Thalasseus bergii,SA-WB-270,2026-10-20T02:08:30.41,2026-10-21
+2026-09-03,VIC,Mornington Peninsula,Rye,Greater Crested Tern,Thalasseus bergii,VIC-WB-153,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,NSW,Eurobodalla,Batemans Bay,Greater Crested Tern,Thalasseus bergii,NSW-WB-023,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,SA,Adelaide Hills,Cudlee Creek,Greater Crested Tern,Thalasseus bergii,SA-WB-269,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,SA,Onkaparinga,Port Noarlunga,Pacific Gull,Larus pacificus,SA-WB-267,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,SA,Onkaparinga,Sellicks Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-268,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,SA,West Torrens,Lockleys,Greater Crested Tern,Thalasseus bergii,SA-WB-266,2026-10-20T02:08:30.41,2026-10-21
+2026-09-02,TAS,West Coast,Strahan,Forest Raven,Corvus tasmanicus,TAS-WB-030,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,NSW,Shoalhaven,Vincentia,Silver Gull,Chroicocephalus novaehollandiae,NSW-WB-021,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,SA,Mitcham,Leawood Gardens,Peregrine Falcon,Falco peregrinus,SA-WB-264,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,TAS,Circular Head,Brittons Swamp,Peregrine Falcon,Falco peregrinus,TAS-WB-028,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,TAS,King Island,King Island,Pacific Gull,Larus pacificus,TAS-WB-029,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,VIC,Bass Coast,Ventnor,Greater Crested Tern,Thalasseus bergii,VIC-WB-146,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,VIC,Colac Otway,Marengo,Greater Crested Tern,Thalasseus bergii,VIC-WB-156,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,VIC,Mornington Peninsula,St Andrews Beach,Little Penguin,Eudyptula minor,VIC-WB-148,2026-10-20T02:08:30.41,2026-10-21
+2026-09-01,VIC,South Gippsland,Wilsons Promontory,Australian Raven,Corvus coronoides,VIC-WB-150,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,NSW,Wollongong,Port Kembla,Greater Crested Tern,Thalasseus bergii,NSW-WB-018,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,SA,Port Adelaide Enfield,Peterhead,Greater Crested Tern,Thalasseus bergii,SA-WB-263,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,SA,Wattle Range,Beachport,Australasian Gannet,Morus serrator,SA-WB-261,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,SA,West Torrens,Novar Gardens,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-262,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,SA,Whyalla,Whyalla,Greater Crested Tern,Thalasseus bergii,SA-WB-260,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,SA,Yorke Peninsula,Coobowie,Black Kite,Milvus migrans,SA-WB-259,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,TAS,Break O'Day,Beaumaris,Greater Crested Tern,Thalasseus bergii,TAS-WB-025,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,VIC,Bass Coast,Cowes,Greater Crested Tern,Thalasseus bergii,VIC-WB-164,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,VIC,Frankston,Frankston,Australian Raven,Corvus coronoides,VIC-WB-152,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,VIC,Port Phillip,Middle Park Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-149,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,VIC,Surf Coast,Lorne,Common Dolphin,Delphinus delphis,VIC-WM-001,2026-10-20T02:08:30.41,2026-10-21
+2026-08-31,VIC,Surf Coast,Lorne,Greater Crested Tern,Thalasseus bergii,VIC-WB-144,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,NSW,Coffs Harbour,Corindi Beach,Shearwater Species,Puffinus sp.,NSW-WB-019,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,SA,Cleve,Arno Bay,Common Dolphin,Delphinus delphis,SA-WM-005,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,SA,Coorong,Narrung,Greater Crested Tern,Thalasseus bergii,SA-WB-256,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,SA,Victor Harbor,Victor Harbor,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-257,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,SA,Wattle Range,Beachport,Long-nosed fur seal,Arctocephalus forsteri,SA-WM-004,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,TAS,Circular Head,Stanley,Forest Raven,Corvus tasmanicus,TAS-WB-024,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,TAS,King Island,King Island,Black-faced Cormorant,Phalacrocorax fuscescens,TAS-WB-026,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,TAS,West Tamar,Kelso,Sooty Oystercatcher,Haematopus fuliginosus,TAS-WB-023,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,Bass Coast,Corinella,Greater Crested Tern,Thalasseus bergii,VIC-WB-138,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,Bass Coast,Cowes,Little Raven,Corvus mellori,VIC-WB-165,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,East Gippsland,Mallacoota,Greater Crested Tern,Thalasseus bergii,VIC-WB-147,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,Greater Geelong,Ocean Grove,Greater Crested Tern,Thalasseus bergii,VIC-WB-151,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,Mornington Peninsula,Blairgowrie,Black-faced Cormorant,Phalacrocorax fuscescens,VIC-WB-140,2026-10-20T02:08:30.41,2026-10-21
+2026-08-30,VIC,Moyne,Peterborough,Great Pied Cormorant,Phalacrocorax varius,VIC-WB-145,2026-10-20T02:08:30.41,2026-10-21
+2026-08-29,SA,Onkaparinga,Lonsdale,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-255,2026-10-20T02:08:30.41,2026-10-21
+2026-08-29,TAS,West Coast,Strahan,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-027,2026-10-20T02:08:30.41,2026-10-21
+2026-08-29,VIC,Bayside (Vic.),Sandringham,Greater Crested Tern,Thalasseus bergii,VIC-WB-142,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,NSW,Northern Beaches,Warriewood,Greater Crested Tern,Thalasseus bergii,NSW-WB-020,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,SA,Mount Barker,Mount Barker,Greater Crested Tern,Thalasseus bergii,SA-WB-252,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,SA,Onkaparinga,O'Sullivan Beach,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-251,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,SA,Southern Limestone Coast,Caveton,Australian Raven,Corvus coronoides,SA-WB-254,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,TAS,Clarence,Acton Park,Greater Crested Tern,Thalasseus bergii,TAS-WB-021,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,TAS,Latrobe (Tas.),Wesley Vale,Greater Crested Tern,Thalasseus bergii,TAS-WB-022,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Bass Coast,Phillip Island,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-135,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Bayside (Vic.),Beaumaris,White-fronted Tern,Sterna striata,VIC-WB-143,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Knox,Wantirna South,Greater Crested Tern,Thalasseus bergii,VIC-WB-132,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Mornington Peninsula,Dromana,Australasian Gannet,Morus serrator,VIC-WB-136,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Mornington Peninsula,Dromana,Greater Crested Tern,Thalasseus bergii,VIC-WB-137,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,South Gippsland,Sandy Point,Little Penguin,Eudyptula minor,VIC-WB-141,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Surf Coast,Angelsea,Greater Crested Tern,Thalasseus bergii,VIC-WB-134,2026-10-20T02:08:30.41,2026-10-21
+2026-08-28,VIC,Surf Coast,Torquay,Red Fox,Vulpes vulpes,VIC-FM-001,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,NSW,Shoalhaven,Dolphin Point,Greater Crested Tern,Thalasseus bergii,NSW-WB-017,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,Kangaroo Island,Penneshaw,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-250,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,Karoonda East Murray,Mindarie,Greater Crested Tern,Thalasseus bergii,SA-WB-248,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,Marion,Sheidow Park,Greater Crested Tern,Thalasseus bergii,SA-WB-247,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,Onkaparinga,O'Sullivan Beach,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-258,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,Tumby Bay,Port Neill,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-253,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,SA,West Torrens,Plympton,Greater Crested Tern,Thalasseus bergii,SA-WB-249,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Central Coast (Tas.),Ulverstone,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-016,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Circular Head,Marrawah,Greater Crested Tern,Thalasseus bergii,TAS-WB-019,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Circular Head,Marrawah,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-020,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Glamorgan-Spring Bay,Triabunna,Forest Raven,Corvus tasmanicus,TAS-WB-018,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Huon Valley,Macquarie Island,Kelp Gull,Larus dominicanus,TAS-WB-051,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,TAS,Waratah-Wynyard,Somerset,White-fronted Tern,Sterna striata,TAS-WB-017,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Bayside (Vic.),Black Rock,Greater Crested Tern,Thalasseus bergii,VIC-WB-124,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Corangamite,Princetown,Fluttering Shearwater,Puffinus gavia,VIC-WB-127,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Frankston,Frankston,Greater Crested Tern,Thalasseus bergii,VIC-WB-131,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Frankston,Frankston,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-130,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Mornington Peninsula,Rye Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-129,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Mornington Peninsula,St Andrews Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-133,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,Pyrenees,Avoca,Greater Crested Tern,Thalasseus bergii,VIC-WB-125,2026-10-20T02:08:30.41,2026-10-21
+2026-08-27,VIC,South Gippsland,Sandy Point,Greater Crested Tern,Thalasseus bergii,VIC-WB-139,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,NSW,Shoalhaven,Calalla Bay,Greater Crested Tern,Thalasseus bergii,NSW-WB-016,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,SA,Light,Kapunda,Greater Crested Tern,Thalasseus bergii,SA-WB-246,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,SA,Yankalilla,Normanville,Red Fox,Vulpes vulpes,SA-FM-002,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,TAS,Waratah-Wynyard,Wynyard,Pacific Gull,Larus pacificus,TAS-WB-015,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Greater Geelong,Portarlington,Greater Crested Tern,Thalasseus bergii,VIC-WB-128,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Mornington Peninsula,Capel Sound,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-122,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Mornington Peninsula,Mount Eliza,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-120,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Mornington Peninsula,Point Leo,Greater Crested Tern,Thalasseus bergii,VIC-WB-121,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Mornington Peninsula,Safety Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-123,2026-10-20T02:08:30.41,2026-10-21
+2026-08-26,VIC,Surf Coast,Torquay,Greater Crested Tern,Thalasseus bergii,VIC-WB-126,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,NSW,Bega Valley,Merimbula,White-fronted Tern,Sterna striata,NSW-WB-022,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,SA,Adelaide Hills,Kersbrook,Greater Crested Tern,Thalasseus bergii,SA-WB-241,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,SA,Charles Sturt,Grange,Greater Crested Tern,Thalasseus bergii,SA-WB-243,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,SA,Marion,Hallett Cove,Greater Crested Tern,Thalasseus bergii,SA-WB-245,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,SA,Port Lincoln,Port Lincoln,Greater Crested Tern,Thalasseus bergii,SA-WB-242,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,SA,Yankalilla,Wattle Flat,Greater Crested Tern,Thalasseus bergii,SA-WB-244,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,TAS,Circular Head,Stanley,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-013,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,VIC,Bass Coast,Summerlands,Raven sp.,Corvus sp.,VIC-WB-119,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,VIC,Mornington Peninsula,Blairgowrie,Greater Crested Tern,Thalasseus bergii,VIC-WB-118,2026-10-20T02:08:30.41,2026-10-21
+2026-08-25,VIC,Mornington Peninsula,Portsea,Greater Crested Tern,Thalasseus bergii,VIC-WB-117,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Coorong,Coonalpyn,Greater Crested Tern,Thalasseus bergii,SA-WB-238,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Copper Coast,Wallaroo,Great Pied Cormorant,Phalacrocorax varius,SA-WB-239,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Onkaparinga,Moana,Greater Crested Tern,Thalasseus bergii,SA-WB-232,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Port Adelaide Enfield,Osborne,Red Fox,Vulpes vulpes,SA-FM-001,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Southern Limestone Coast,Mount Schank,Brown Falcon,Falco berigora,SA-WB-237,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Wattle Range,Southend,Little Penguin,Eudyptula minor,SA-WB-235,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,SA,Yorke Peninsula,Marion Bay,Brown Falcon,Falco berigora,SA-WB-236,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,TAS,Circular Head,Stanley,Greater Crested Tern,Thalasseus bergii,TAS-WB-011,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,TAS,King Island,King Island,Forest Raven,Corvus tasmanicus,TAS-WB-014,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,TAS,Waratah-Wynyard,Wynyard,Greater Crested Tern,Thalasseus bergii,TAS-WB-012,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Colac Otway,Apollo Bay,Southern Boobook,Ninox boobook,VIC-WB-110,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Knox,Rowville,Greater Crested Tern,Thalasseus bergii,VIC-WB-114,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Mitchell,Kilmore,Greater Crested Tern,Thalasseus bergii,VIC-WB-112,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Mornington Peninsula,Blairgowrie,Greater Crested Tern,Thalasseus bergii,VIC-WB-097,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Mornington Peninsula,Sorrento,Greater Crested Tern,Thalasseus bergii,VIC-WB-098,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,South Gippsland,Waratah Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-116,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Wellington,Seaspray,Greater Crested Tern,Thalasseus bergii,VIC-WB-109,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,West Wimmera,Edenhope,Greater Crested Tern,Thalasseus bergii,VIC-WB-107,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Wyndham,Hoppers Crossing,Greater Crested Tern,Thalasseus bergii,VIC-WB-115,2026-10-20T02:08:30.41,2026-10-21
+2026-08-24,VIC,Wyndham,Werribee,Greater Crested Tern,Thalasseus bergii,VIC-WB-111,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,NSW,Bega Valley,Bermagui,Greater Crested Tern,Thalasseus bergii,NSW-WB-015,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,NSW,Wollongong,Windang,Greater Crested Tern,Thalasseus bergii,NSW-WB-014,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Charles Sturt,West Lakes Shore,Greater Crested Tern,Thalasseus bergii,SA-WB-229,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Kangaroo Island,Emu Bay,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-231,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Onkaparinga,Port Willunga,Greater Crested Tern,Thalasseus bergii,SA-WB-227,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Port Adelaide Enfield,Port Adelaide,Greater Crested Tern,Thalasseus bergii,SA-WB-233,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Port Adelaide Enfield,Semaphore,Fluttering Shearwater,Puffinus gavia,SA-WB-234,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,SA,Robe,Robe,Australian Raven,Corvus coronoides,SA-WB-230,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,TAS,Dorset,Scottsdale,Greater Crested Tern,Thalasseus bergii,TAS-WB-010,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,TAS,George Town,Lulworth,Greater Crested Tern,Thalasseus bergii,TAS-WB-009,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Bass Coast,Corinella,Greater Crested Tern,Thalasseus bergii,VIC-WB-100,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Bass Coast,Coronet Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-099,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Corangamite,Princetown,Little Penguin,Eudyptula minor,VIC-WB-101,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Knox,Wantrina South,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-092,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Monash,Wheelers Hill,Greater Crested Tern,Thalasseus bergii,VIC-WB-090,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Surf Coast,Lorne,Greater Crested Tern,Thalasseus bergii,VIC-WB-102,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Wyndham,Point Cook,Greater Crested Tern,Thalasseus bergii,VIC-WB-108,2026-10-20T02:08:30.41,2026-10-21
+2026-08-23,VIC,Wyndham,Werribee,Greater Crested Tern,Thalasseus bergii,VIC-WB-091,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,SA,Kangaroo Island,Baudin Beach,Pacific Gull,Larus pacificus,SA-WB-226,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,SA,Mitcham,Bellevue Heights,Greater Crested Tern,Thalasseus bergii,SA-WB-222,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,SA,Onkaparinga,Maslin Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-209,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,SA,Port Adelaide Enfield,Osborne,Greater Crested Tern,Thalasseus bergii,SA-WB-223,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,SA,Port Lincoln,Port Lincoln,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-228,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,VIC,Frankston,Frankston,Greater Crested Tern,Thalasseus bergii,VIC-WB-088,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,VIC,Merri-bek,Oak Park,Greater Crested Tern,Thalasseus bergii,VIC-WB-095,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,VIC,Mornington Peninsula,Mt Eliza,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-093,2026-10-20T02:08:30.41,2026-10-21
+2026-08-22,VIC,Mornington Peninsula,Rosebud,Greater Crested Tern,Thalasseus bergii,VIC-WB-094,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,NSW,Bega Valley,Merimbula,Greater Crested Tern,Thalasseus bergii,NSW-WB-013,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,SA,Alexandrina,Goolwa South,Greater Crested Tern,Thalasseus bergii,SA-WB-221,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,SA,Port Adelaide Enfield,Semaphore,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-220,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,SA,Port Adelaide Enfield,Semaphore,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-219,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,SA,Robe,Robe,Australian Magpie,Gymnorhina tibicen,SA-WB-217,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,VIC,Bass Coast,Summerlands,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-096,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,VIC,Colac Otway,Apollo Bay,Forest Raven,Corvus tasmanicus,VIC-WB-104,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,VIC,Colac Otway,Apollo Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-105,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,VIC,Moyne,Peterborough,Greater Crested Tern,Thalasseus bergii,VIC-WB-106,2026-10-20T02:08:30.41,2026-10-21
+2026-08-21,VIC,Moyne,Peterborough,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-103,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,NSW,Eurobodalla,Narooma,Greater Crested Tern,Thalasseus bergii,NSW-WB-012,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,QLD,Noosa,Castaways Beach,Hutton's Shearwater,Puffinus huttoni,QLD-WB-002,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Elliston,Pearsons Island,Greater Crested Tern,Thalasseus bergii,SA-WB-197,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Kangaroo Island,North Page,Long-nosed fur seal,Arctocephalus forsteri,SA-WM-002,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Kangaroo Island,Seal Bay,Sooty Oystercatcher,Haematopus fuliginosus,SA-WB-218,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Lower Eyre,South Neptune Island,Greater Crested Tern,Thalasseus bergii,SA-WB-200,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Lower Eyre,Williams Island,Greater Crested Tern,Thalasseus bergii,SA-WB-199,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Onkaparinga,Moana,Great Pied Cormorant,Phalacrocorax varius,SA-WB-207,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Port Adelaide Enfield,Outer Harbor,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-206,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Prospect,Prospect,Greater Crested Tern,Thalasseus bergii,SA-WB-216,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Southern Limestone Coast,Carpenter Rocks,White-fronted Tern,Sterna striata,SA-WB-211,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,SA,Yorke Peninsula,Stansbury,Greater Crested Tern,Thalasseus bergii,SA-WB-208,2026-10-20T02:08:30.41,2026-10-21
+2026-08-20,VIC,Glenelg,Portland,Little Raven,Corvus mellori,VIC-WB-113,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,SA,Adelaide Hills,Stirling,Greater Crested Tern,Thalasseus bergii,SA-WB-201,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,SA,Alexandrina,Hindmarsh Island,Greater Crested Tern,Thalasseus bergii,SA-WB-205,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,SA,Wattle Range,Beachport,Long-nosed fur seal,Arctocephalus forsteri,SA-WM-001,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,TAS,King Island,King Island  (Surprise Bay),Little Penguin,Eudyptula minor,TAS-WB-008,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,VIC,Colac Otway,Apollo Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-089,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,VIC,Corangamite,Port Campbell,Greater Crested Tern,Thalasseus bergii,VIC-WB-087,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,VIC,East Gippsland,Bumberrah,Greater Crested Tern,Thalasseus bergii,VIC-WB-086,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,VIC,Mornington Peninsula,McCrae Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-082,2026-10-20T02:08:30.41,2026-10-21
+2026-08-19,VIC,Moyne,Peterborough,Greater Crested Tern,Thalasseus bergii,VIC-WB-085,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,SA,Alexandrina,Clayton Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-193,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,SA,Kangaroo Island,Flinders Chase,White-fronted Tern,Sterna striata,SA-WB-204,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,SA,Kangaroo Island,Haines,Great Pied Cormorant,Phalacrocorax varius,SA-WB-196,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,SA,Lower Eyre,Curta Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-313,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,SA,Lower Eyre,Liguanea Island,Greater Crested Tern,Thalasseus bergii,SA-WB-198,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,TAS,King Island,King Island,White-fronted Tern,Sterna striata,TAS-WB-007,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,VIC,Mornington Peninsula,Blairgowrie,Greater Crested Tern,Thalasseus bergii,VIC-WB-079,2026-10-20T02:08:30.41,2026-10-21
+2026-08-18,VIC,Mornington Peninsula,Sorrento,Greater Crested Tern,Thalasseus bergii,VIC-WB-080,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,NSW,Bega Valley,Merimbula,Greater Crested Tern,Thalasseus bergii,NSW-WB-010,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,NSW,Bega Valley,Merimbula,Greater Crested Tern,Thalasseus bergii,NSW-WB-011,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,SA,Alexandrina,Goolwa Channel,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-189,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,SA,Alexandrina,Milang,Greater Crested Tern,Thalasseus bergii,SA-WB-188,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,SA,Kangaroo Island,D'Estrees Bay,Little Penguin,Eudyptula minor,SA-WB-192,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,SA,Onkaparinga,Christies Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-190,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,SA,Yankalilla,Normanville,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-191,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,TAS,Circular Head,Rocky Cape,Greater Crested Tern,Thalasseus bergii,TAS-WB-006,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,VIC,Corangamite,Port Campbell,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-083,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,VIC,Mornington Peninsula,Sorrento,Greater Crested Tern,Thalasseus bergii,VIC-WB-077,2026-10-20T02:08:30.41,2026-10-21
+2026-08-17,VIC,Moyne,Peterborough,Greater Crested Tern,Thalasseus bergii,VIC-WB-084,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,NSW,Bega Valley,Merimbula,Greater Crested Tern,Thalasseus bergii,NSW-WB-009,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,SA,Cleve,Arno Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-187,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,SA,Kangaroo Island,Seal Bay,Great Pied Cormorant,Phalacrocorax varius,SA-WB-195,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,SA,Naracoorte Lucindale,Avenue Range,Greater Crested Tern,Thalasseus bergii,SA-WB-186,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,SA,Yorke Peninsula,Point Turton,Greater Crested Tern,Thalasseus bergii,SA-WB-182,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Bass Coast,Cape Patterson,Greater Crested Tern,Thalasseus bergii,VIC-WB-061,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Glenelg,Portland,Little Raven,Corvus mellori,VIC-WB-074,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Glenelg,Portland,Little Raven,Corvus mellori,VIC-WB-076,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Greater Geelong,Point Lonsdale,Greater Crested Tern,Thalasseus bergii,VIC-WB-069,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Greater Geelong,St Leonards Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-070,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Greater Geelong,Swan Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-067,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Mornington Peninsula,Sorrento,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-066,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Surf Coast,Lorne,Greater Crested Tern,Thalasseus bergii,VIC-WB-075,2026-10-20T02:08:30.41,2026-10-21
+2026-08-16,VIC,Surf Coast,Torquay,Greater Crested Tern,Thalasseus bergii,VIC-WB-068,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,NSW,Eurobodalla,Narooma,Southern Giant Petrel,Macronectes giganteus,NSW-WB-008,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,SA,Kingston (SA),West Range,Australasian Gannet,Morus serrator,SA-WB-185,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,SA,West Torrens,Novar Gardens,Greater Crested Tern,Thalasseus bergii,SA-WB-181,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,TAS,Burnie,Burnie,Greater Crested Tern,Thalasseus bergii,TAS-WB-004,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,TAS,Central Coast (Tas.),Sulphur Creek,Greater Crested Tern,Thalasseus bergii,TAS-WB-005,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,TAS,King Island,King Island,Silver Gull,Chroicocephalus novaehollandiae,TAS-WB-003,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,VIC,Corangamite,Port Campbell,Greater Crested Tern,Thalasseus bergii,VIC-WB-081,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,VIC,Manningham,Doncaster East,Greater Crested Tern,Thalasseus bergii,VIC-WB-058,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,VIC,Mornington Peninsula,Cape Sound Foreshore Rosebud,Greater Crested Tern,Thalasseus bergii,VIC-WB-059,2026-10-20T02:08:30.41,2026-10-21
+2026-08-15,VIC,South Gippsland,Sandy Point WP,Greater Crested Tern,Thalasseus bergii,VIC-WB-060,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,NSW,Eurobodalla,Narooma,Greater Crested Tern,Thalasseus bergii,NSW-WB-007,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,SA,Adelaide Hills,Mylor,Greater Crested Tern,Thalasseus bergii,SA-WB-179,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,SA,Holdfast Bay,Glenelg,Greater Crested Tern,Thalasseus bergii,SA-WB-194,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,SA,Marion,Marino,Greater Crested Tern,Thalasseus bergii,SA-WB-183,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,SA,West Torrens,West Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-180,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Bass Coast,Newhaven,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-064,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Colac Otway,Apollo Bay,Greater Crested Tern,Thalasseus bergii,VIC-WB-065,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Moorabool,Bacchus Marsh,Greater Crested Tern,Thalasseus bergii,VIC-WB-078,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Moyne,Peterborough,Australasian Gannet,Morus serrator,VIC-WB-071,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Nillumbik,Christmas Hills,Greater Crested Tern,Thalasseus bergii,VIC-WB-057,2026-10-20T02:08:30.41,2026-10-21
+2026-08-14,VIC,Surf Coast,Torquay,Greater Crested Tern,Thalasseus bergii,VIC-WB-063,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,NSW,Eurobodalla,Narooma,Greater Crested Tern,Thalasseus bergii,NSW-WB-006,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,SA,Wattle Range,Coonawarra,Greater Crested Tern,Thalasseus bergii,SA-WB-203,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,SA,Yankalilla,Rapid Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-170,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,SA,Yorke Peninsula,Point Turton,Greater Crested Tern,Thalasseus bergii,SA-WB-178,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,TAS,King Island,King Island,Greater Crested Tern,Thalasseus bergii,TAS-WB-002,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,VIC,Bass Coast,Newhaven,Greater Crested Tern,Thalasseus bergii,VIC-WB-062,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,VIC,Bass Coast,Summerlands,Little Penguin,Eudyptula minor,VIC-WB-052,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,VIC,Corangamite,Port Campbell,Greater Crested Tern,Thalasseus bergii,VIC-WB-072,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,VIC,Corangamite,Princetown,Australian Magpie,Gymnorhina tibicen,VIC-WB-073,2026-10-20T02:08:30.41,2026-10-21
+2026-08-13,VIC,Macedon Ranges,Kyneton,Greater Crested Tern,Thalasseus bergii,VIC-WB-056,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,SA,Barossa,Tanunda,Greater Crested Tern,Thalasseus bergii,SA-WB-176,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,SA,Southern Limestone Coast,Port MacDonnell,Australian Raven,Corvus coronoides,SA-WB-175,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-169,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,TAS,Circular Head,Rocky Cape,Brown Skua,Stercorarius antarcticus,TAS-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,VIC,Glenelg,Portland,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-055,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,VIC,Mornington Peninsula,Dromana Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-053,2026-10-20T02:08:30.41,2026-10-21
+2026-08-12,VIC,Nillumbik,Christmas Hills,Greater Crested Tern,Thalasseus bergii,VIC-WB-049,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,NSW,Bega Valley,Eden,Greater Crested Tern,Thalasseus bergii,NSW-WB-005,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Franklin Harbour,Lucky Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-174,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Kangaroo Island,American River,Greater Crested Tern,Thalasseus bergii,SA-WB-202,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-159,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Pelican Point,Greater Crested Tern,Thalasseus bergii,SA-WB-160,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-155,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-162,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-168,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-156,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-163,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,VIC,Corangamite,Port Campbell,Greater Crested Tern,Thalasseus bergii,VIC-WB-050,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,VIC,East Gippsland,Lakes Entrance,Greater Crested Tern,Thalasseus bergii,VIC-WB-051,2026-10-20T02:08:30.41,2026-10-21
+2026-08-11,VIC,Moyne,Port Fairy,Raven sp.,Corvus sp.,VIC-WB-054,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Alexandrina,Middleton,Greater Crested Tern,Thalasseus bergii,SA-WB-149,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Kangaroo Island,Emu Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-165,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Onkaparinga,Flagstaff Hill,Greater Crested Tern,Thalasseus bergii,SA-WB-171,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Onkaparinga,McLaren Vale,Greater Crested Tern,Thalasseus bergii,SA-WB-172,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-129,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-154,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Southern Limestone Coast,Carpenter Rocks,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-166,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Southern Limestone Coast,Tarpeena,Greater Crested Tern,Thalasseus bergii,SA-WB-161,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Victor Harbor,Victor Harbor,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-150,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-157,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Wattle Range,Penola,Greater Crested Tern,Thalasseus bergii,SA-WB-164,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-158,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,SA,Yankalilla,Cape Jervis,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-173,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,VIC,Glenelg,Portland,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-045,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,VIC,Moyne,Killarney Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-046,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,VIC,Moyne,Port-Fairy-Southcombe Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-047,2026-10-20T02:08:30.41,2026-10-21
+2026-08-10,VIC,Warrnambool,Warnambool,Fluttering Shearwater,Puffinus gavia,VIC-WB-048,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Kangaroo Island,Brown Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-153,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Kangaroo Island,Kohinoor,Peregrine Falcon,Falco peregrinus,SA-WB-146,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Southern Limestone Coast,Cape Douglas,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-152,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-148,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-184,2026-10-20T02:08:30.41,2026-10-21
+2026-08-09,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-145,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Alexandrina,Middleton,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-147,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Kingston (SA),Cape Jaffa,Greater Crested Tern,Thalasseus bergii,SA-WB-128,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Onkaparinga,O'Sullivan Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-137,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-136,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Southern Limestone Coast,Carpenter Rocks,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-135,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Southern Limestone Coast,Carpenter Rocks,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-139,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Southern Limestone Coast,Pelican Point,Greater Crested Tern,Thalasseus bergii,SA-WB-138,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-132,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-133,2026-10-20T02:08:30.41,2026-10-21
+2026-08-08,VIC,Moyne,Hawkesdale,Greater Crested Tern,Thalasseus bergii,VIC-WB-043,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-130,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-127,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-151,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Southern Limestone Coast,Carpenter Rocks,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-142,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-143,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Southern Limestone Coast,Carpenter Rocks,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-126,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-144,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,SA,Tatiara,Padthaway,Greater Crested Tern,Thalasseus bergii,SA-WB-141,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,VIC,Colac Otway,Sugarloaf,Greater Crested Tern,Thalasseus bergii,VIC-WB-044,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,VIC,Mornington Peninsula,St Andrews Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-042,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,VIC,Southern Grampians,Hamilton,Greater Crested Tern,Thalasseus bergii,VIC-WB-041,2026-10-20T02:08:30.41,2026-10-21
+2026-08-07,VIC,Warrnambool,Warrnambool,Greater Crested Tern,Thalasseus bergii,VIC-WB-040,2026-10-20T02:08:30.41,2026-10-21
+2026-08-06,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-140,2026-10-20T02:08:30.41,2026-10-21
+2026-08-06,VIC,Bass Coast,Phillip Island,Greater Crested Tern,Thalasseus bergii,VIC-WB-039,2026-10-20T02:08:30.41,2026-10-21
+2026-08-06,VIC,Moyne,Port Fairy,Greater Crested Tern,Thalasseus bergii,VIC-WB-034,2026-10-20T02:08:30.41,2026-10-21
+2026-08-06,VIC,Moyne,Port Fairy,Greater Crested Tern,Thalasseus bergii,VIC-WB-036,2026-10-20T02:08:30.41,2026-10-21
+2026-08-06,VIC,Warrnambool,Allansford,Greater Crested Tern,Thalasseus bergii,VIC-WB-037,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-125,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,VIC,Casey,Clyde,Greater Crested Tern,Thalasseus bergii,VIC-WB-031,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,VIC,Colac Otway,Apollo Bay Harbour,Greater Crested Tern,Thalasseus bergii,VIC-WB-032,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,VIC,Glenelg,Tyrendarra,Greater Crested Tern,Thalasseus bergii,VIC-WB-035,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,VIC,Mildura,Red Cliffs,Greater Crested Tern,Thalasseus bergii,VIC-WB-038,2026-10-20T02:08:30.41,2026-10-21
+2026-08-05,VIC,Warrnambool,Logans Beach,Greater Crested Tern,Thalasseus bergii,VIC-WB-033,2026-10-20T02:08:30.41,2026-10-21
+2026-08-04,NSW,Eurobodalla,Narooma,Greater Crested Tern,Thalasseus bergii,NSW-WB-003,2026-10-20T02:08:30.41,2026-10-21
+2026-08-04,NSW,Wentworth,Coomealla,Greater Crested Tern,Thalasseus bergii,NSW-WB-004,2026-10-20T02:08:30.41,2026-10-21
+2026-08-04,SA,Port Adelaide Enfield,North Haven,Greater Crested Tern,Thalasseus bergii,SA-WB-177,2026-10-20T02:08:30.41,2026-10-21
+2026-08-04,SA,Robe,Robe,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-124,2026-10-20T02:08:30.41,2026-10-21
+2026-08-03,VIC,Moyne,Yambuk,Greater Crested Tern,Thalasseus bergii,VIC-WB-030,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-021,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-023,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-025,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-028,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-018,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-022,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-024,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-029,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-019,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-026,2026-10-20T02:08:30.41,2026-10-21
+2026-08-02,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-027,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-013,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-017,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-015,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-016,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson Estuary,Greater Crested Tern,Thalasseus bergii,VIC-WB-020,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Nelson Estuary,Silver Gull,Chroicocephalus novaehollandiae,VIC-WB-012,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Portland,Australian Magpie,Gymnorhina tibicen,VIC-WB-014,2026-10-20T02:08:30.41,2026-10-21
+2026-08-01,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-011,2026-10-20T02:08:30.41,2026-10-21
+2026-07-31,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-010,2026-10-20T02:08:30.41,2026-10-21
+2026-07-31,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-008,2026-10-20T02:08:30.41,2026-10-21
+2026-07-31,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-009,2026-10-20T02:08:30.41,2026-10-21
+2026-07-30,VIC,Glenelg,Nelson,Greater Crested Tern,Thalasseus bergii,VIC-WB-003,2026-10-20T02:08:30.41,2026-10-21
+2026-07-30,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-004,2026-10-20T02:08:30.41,2026-10-21
+2026-07-30,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-005,2026-10-20T02:08:30.41,2026-10-21
+2026-07-30,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-006,2026-10-20T02:08:30.41,2026-10-21
+2026-07-29,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-007,2026-10-20T02:08:30.41,2026-10-21
+2026-07-28,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-07-28,VIC,Glenelg,Portland,Greater Crested Tern,Thalasseus bergii,VIC-WB-002,2026-10-20T02:08:30.41,2026-10-21
+2026-07-27,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-167,2026-10-20T02:08:30.41,2026-10-21
+2026-07-22,QLD,Brisbane,Moreton Island,Northern Giant Petrel,Macronectes halli,QLD-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-07-12,WA,Gingin,Seabird,Giant Petrel,Macronectes sp.,WA-WB-009,2026-10-20T02:08:30.41,2026-10-21
+2026-07-11,NSW,Mid-Coast,Hawks Nest,Giant Petrel,Macronectes sp.,NSW-WB-002,2026-10-20T02:08:30.41,2026-10-21
+2026-07-10,WA,Northampton,Northampton,Giant Petrel,Macronectes sp.,WA-WB-007,2026-10-20T02:08:30.41,2026-10-21
+2026-07-08,WA,Denmark,Denmark,Southern Giant Petrel,Macronectes giganteus,WA-WB-010,2026-10-20T02:08:30.41,2026-10-21
+2026-07-08,WA,Joondalup,Mullaloo,Giant Petrel,Macronectes sp.,WA-WB-006,2026-10-20T02:08:30.41,2026-10-21
+2026-07-02,WA,Gingin,Lancelin,Southern Giant Petrel,Macronectes giganteus,WA-WB-008,2026-10-20T02:08:30.41,2026-10-21
+2026-06-30,WA,Joondalup,Mullaloo,Giant Petrel,Macronectes sp.,WA-WB-005,2026-10-20T02:08:30.41,2026-10-21
+2026-06-28,NSW,Mid-Coast,Hawks Nest,Giant Petrel,Macronectes sp.,NSW-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-06-20,WA,Esperance,Roses Beach,Southern Giant Petrel,Macronectes giganteus,WA-WB-004,2026-10-20T02:08:30.41,2026-10-21
+2026-06-19,WA,Busselton,Quindalup,Southern Giant Petrel,Macronectes giganteus,WA-WB-003,2026-10-20T02:08:30.41,2026-10-21
+2026-06-15,WA,Esperance,Esperance,Brown Skua,Stercorarius antarcticus,WA-WB-001,2026-10-20T02:08:30.41,2026-10-21
+2026-06-15,WA,Esperance,Esperance,Southern Giant Petrel,Macronectes giganteus,WA-WB-002,2026-10-20T02:08:30.41,2026-10-21
+,SA,Alexandrina,Goolwa Beach,Common Bottlenose Dolphin,Tursiops truncatus,SA-WM-003,2026-10-20T02:08:30.41,2026-10-21
+,SA,Alexandrina,Middleton,Greater Crested Tern,Thalasseus bergii,SA-WB-104,2026-10-20T02:08:30.41,2026-10-21
+,SA,Alexandrina,Port Elliot,Greater Crested Tern,Thalasseus bergii,SA-WB-063,2026-10-20T02:08:30.41,2026-10-21
+,SA,Alexandrina,Port Elliot,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-102,2026-10-20T02:08:30.41,2026-10-21
+,SA,Alexandrina,Port Elliot,Southern Giant Petrel,Macronectes giganteus,SA-WB-001,2026-10-20T02:08:30.41,2026-10-21
+,SA,Coorong,Coorong,Greater Crested Tern,Thalasseus bergii,SA-WB-224,2026-10-20T02:08:30.41,2026-10-21
+,SA,Coorong,Coorong,Greater Crested Tern,Thalasseus bergii,SA-WB-225,2026-10-20T02:08:30.41,2026-10-21
+,SA,Coorong,Coorong,White-headed Petrel,Pterodroma lessonii,SA-WB-044,2026-10-20T02:08:30.41,2026-10-21
+,SA,Holdfast Bay,Glenelg,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-040,2026-10-20T02:08:30.41,2026-10-21
+,SA,Holdfast Bay,Glenelg,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-092,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,D'Estrees Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-013,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,D'Estrees Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-038,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,D'Estrees Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-089,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,D'Estrees Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-090,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,D'Estrees Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-131,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Emu Bay,Southern Giant Petrel,Macronectes giganteus,SA-WB-004,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Flinders Chase,Pacific Gull,Larus pacificus,SA-WB-101,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Haines,Greater Crested Tern,Thalasseus bergii,SA-WB-077,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Haines,Pacific Gull,Larus pacificus,SA-WB-100,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Harriet River,Greater Crested Tern,Thalasseus bergii,SA-WB-032,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Kingscote,Australian Raven,Corvus coronoides,SA-WB-240,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,North Page,Greater Crested Tern,Thalasseus bergii,SA-WB-039,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Penneshaw,Greater Crested Tern,Thalasseus bergii,SA-WB-081,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-014,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-022,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-033,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-036,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-037,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-062,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-074,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-082,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-083,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-086,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-091,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-134,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Seal Bay,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-107,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,South Page,Little Penguin,Eudyptula minor,SA-WB-215,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,South Page,Pacific Gull,Larus pacificus,SA-WB-213,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,South Page,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-214,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Vivonne Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-030,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Vivonne Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-035,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Vivonne Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-041,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Vivonne Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-045,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kangaroo Island,Vivonne Bay,Greater Crested Tern,Thalasseus bergii,SA-WB-073,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kingston (SA),Cape Jaffa,Greater Crested Tern,Thalasseus bergii,SA-WB-008,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kingston (SA),Cape Jaffa,Greater Crested Tern,Thalasseus bergii,SA-WB-015,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kingston (SA),Cape Jaffa,Greater Crested Tern,Thalasseus bergii,SA-WB-054,2026-10-20T02:08:30.41,2026-10-21
+,SA,Kingston (SA),Cape Jaffa,Pacific Gull,Larus pacificus,SA-WB-095,2026-10-20T02:08:30.41,2026-10-21
+,SA,Mid Murray,Mannum,Greater Crested Tern,Thalasseus bergii,SA-WB-115,2026-10-20T02:08:30.41,2026-10-21
+,SA,Mount Gambier,Mt Gambier,Greater Crested Tern,Thalasseus bergii,SA-WB-116,2026-10-20T02:08:30.41,2026-10-21
+,SA,Murray Bridge,Monarto,Greater Crested Tern,Thalasseus bergii,SA-WB-025,2026-10-20T02:08:30.41,2026-10-21
+,SA,Onkaparinga,O'Sullivan Beach,Greater Crested Tern,Thalasseus bergii,SA-WB-114,2026-10-20T02:08:30.41,2026-10-21
+,SA,Onkaparinga,Port Noarlunga,Greater Crested Tern,Thalasseus bergii,SA-WB-111,2026-10-20T02:08:30.41,2026-10-21
+,SA,Playford,Craigmore,Greater Crested Tern,Thalasseus bergii,SA-WB-103,2026-10-20T02:08:30.41,2026-10-21
+,SA,Port Adelaide Enfield,Pelican Point,Greater Crested Tern,Thalasseus bergii,SA-WB-050,2026-10-20T02:08:30.41,2026-10-21
+,SA,Port Adelaide Enfield,Pelican Point,Greater Crested Tern,Thalasseus bergii,SA-WB-080,2026-10-20T02:08:30.41,2026-10-21
+,SA,Port Adelaide Enfield,Semaphore,Greater Crested Tern,Thalasseus bergii,SA-WB-007,2026-10-20T02:08:30.41,2026-10-21
+,SA,Port Lincoln,Port Lincoln,Giant Petrel,Macronectes sp.,SA-WB-012,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Baudin Rocks Conservation Park,Greater Crested Tern,Thalasseus bergii,SA-WB-042,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Baudin Rocks Conservation Park,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-043,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-005,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-006,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-020,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-029,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-031,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-059,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-065,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-070,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-071,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-075,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Greater Crested Tern,Thalasseus bergii,SA-WB-118,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-021,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-023,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-078,2026-10-20T02:08:30.41,2026-10-21
+,SA,Robe,Robe,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-117,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Cape Douglas,Greater Crested Tern,Thalasseus bergii,SA-WB-072,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Cape Douglas,Pacific Gull,Larus pacificus,SA-WB-113,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Carpenter Rocks,Black-faced Cormorant,Phalacrocorax fuscescens,SA-WB-085,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-055,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-084,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Carpenter Rocks,Greater Crested Tern,Thalasseus bergii,SA-WB-120,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Eight Mile Creek,Greater Crested Tern,Thalasseus bergii,SA-WB-076,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-010,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-016,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-017,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-051,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-052,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-056,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-058,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-060,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-066,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-068,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-088,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-096,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-097,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-099,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-106,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-110,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-112,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Greater Crested Tern,Thalasseus bergii,SA-WB-119,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-069,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-094,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Port MacDonnell,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-098,2026-10-20T02:08:30.41,2026-10-21
+,SA,Southern Limestone Coast,Tarpeena,Greater Crested Tern,Thalasseus bergii,SA-WB-108,2026-10-20T02:08:30.41,2026-10-21
+,SA,Tumby Bay,Lipson Island,Greater Crested Tern,Thalasseus bergii,SA-WB-210,2026-10-20T02:08:30.41,2026-10-21
+,SA,Victor Harbor,Hayborough,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-121,2026-10-20T02:08:30.41,2026-10-21
+,SA,Victor Harbor,Pullen Island,Greater Crested Tern,Thalasseus bergii,SA-WB-049,2026-10-20T02:08:30.41,2026-10-21
+,SA,Victor Harbor,Victor Harbor,Greater Crested Tern,Thalasseus bergii,SA-WB-109,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-018,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-047,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-057,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-061,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-064,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-079,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-087,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Beachport,Greater Crested Tern,Thalasseus bergii,SA-WB-122,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Millicent,Greater Crested Tern,Thalasseus bergii,SA-WB-123,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-009,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-011,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-019,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-026,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-027,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-028,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-048,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Greater Crested Tern,Thalasseus bergii,SA-WB-067,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-024,2026-10-20T02:08:30.41,2026-10-21
+,SA,Wattle Range,Southend,Silver Gull,Chroicocephalus novaehollandiae,SA-WB-053,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yankalilla,Normanville,Greater Crested Tern,Thalasseus bergii,SA-WB-105,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Hardwicke Bay,Giant Petrel,Macronectes sp.,SA-WB-002,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Port Vincent,Greater Crested Tern,Thalasseus bergii,SA-WB-046,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Port Vincent,Greater Crested Tern,Thalasseus bergii,SA-WB-093,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Port Vincent,Northern Giant Petrel,Macronectes halli,SA-WB-003,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Troubridge Island,Greater Crested Tern,Thalasseus bergii,SA-WB-034,2026-10-20T02:08:30.41,2026-10-21
+,SA,Yorke Peninsula,Troubridge Island,Pacific Gull,Larus pacificus,SA-WB-212,2026-10-20T02:08:30.41,2026-10-21

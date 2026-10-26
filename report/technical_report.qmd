@@ -1,0 +1,222 @@
+---
+title: "H5N1 spatial risk: Australia"
+subtitle: "Technical report"
+author: "Meryl Theng"
+date: today
+format:
+  pdf:
+    toc: true
+    number-sections: true
+---
+
+# Introduction
+
+As part of the [WOAH Datathon](https://data-integration-department-woah.github.io/WOAH-Datathon/), we built an analytical workflow to map the risk of HPAI H5N1 (clade 2.3.4.4b) in a country of interest. We start with Australia, where H5N1 was first detected in wildlife in June 2026.
+
+**Datathon Challenge 1 deliverable:** an integrated analytical workflow that produces early warning signals for specific diseases and provides corrected, real-time estimates of disease dynamics and short-term forecasts of disease evolution, with the level of uncertainty being explicitly quantified.
+
+**Aim:** to estimate how far H5N1 spreads between areas of Australia, using outbreak records, and to combine that estimate with waterbird abundance to produce a risk surface for H5N1 in wild birds. Combining it with poultry density gives an indicative surface for spillover risk to domestic flocks.
+
+**How the aim maps onto the deliverable**
+
+- *Real-time estimates:* the workflow is fully reproducible (Snakemake), so the kernel and maps are refitted from a new DAFF snapshot by changing one setting.
+- *Correction for detection lag:* each infected area is treated as infectious from a set number of days *before* it was detected. This lag is assumed, not estimated.
+- *Uncertainty:* kernel parameters are estimated with approximate confidence intervals, and the fitted curves are shown with uncertainty bands. Sensitivity to the assumed values is discussed in Section 5.
+
+**Two kinds of output.** The distance kernel is a statistical estimate fitted to the outbreak data. The risk surfaces are not: they combine the kernel with covariates by fixed, assumed rules and give a *relative ranking* of cells. They are not probabilities of infection.
+
+The analysis has three parts:
+
+1. fit a distance kernel to the outbreak data (Section 2);
+2. prepare the covariate layers: waterbird abundance and poultry density (Section 3);
+3. combine the kernel and covariates into risk maps (Section 4).
+
+All steps run from a single command; see the repository README.
+
+# Distance transmission kernel
+
+We estimate how the chance of H5N1 appearing in a new area changes with distance from areas where it has already been detected in wild birds. This relationship is the transmission kernel.
+
+## Outbreak data
+
+**WAHIS.** Outbreak records for H5N1 in wild birds come from the WOAH World Animal Health Information System, [event 7649](https://wahis.woah.org/#/in-event/7649/dashboard). Each record has a location and a `startDate`, the declared start of the outbreak. For wild birds this is usually when carcasses were found or sampled, not when birds were infected. WAHIS records were exported manually from the event dashboard on 10 August 2026, as WAHIS offers no documented public interface for downloading event data. This is the only input the workflow does not retrieve itself.
+
+**DAFF supplement.** The WAHIS event had not been updated since 7 August 2026, so more recent detections were taken from the Australian Government Department of Agriculture, Fisheries and Forestry ([DAFF](https://www.agriculture.gov.au/campaigns/birdflu/latest-data)) "Events by species" table, retrieved through the public Power BI service behind the page. The table can only be retrieved as it stands on the day, so each retrieval is saved as a dated snapshot; this analysis uses the snapshot of 21 October 2026.
+
+**Locating DAFF records.** DAFF reports locations only to locality (suburb or town). Each record was matched to a locality boundary from the Australian Bureau of Statistics (ABS Suburbs and Localities, 2021) on locality name *and* state, ignoring case. ABS adds a state suffix to names used in more than one state (e.g. "Richmond (Tas.)"); the suffix was removed before matching. Each matched record was given one random point within its locality (fixed seed). Unmatched records were left without coordinates.
+
+**Combining sources.** The two sources overlap. Records with the same locality, date and species in both were flagged as probable duplicates but not removed.
+
+## Grid and risk set
+
+WAHIS and DAFF record only where the virus *was* detected. The likelihood also needs areas that were at risk but not infected, so we built that set ourselves. Australia (GADM 4.1, excluding external territories) was divided into square cells 25 km wide on the Australian Albers equal-area projection (EPSG:3577). The grid starts at the boundary's south-western corner, and every cell the boundary touches is kept, so coastal cells, where many wild-bird detections occur, are included. The same grid is used for every layer in the analysis, so cells line up exactly.
+
+Each cell is either *activated*, taking the date of its earliest detection, or never activated. Time runs in steps of 7 days.
+
+## Infectious window
+
+A cell is detected some time after birds there were first infected, and it can keep transmitting after detection because birds shed virus before they die and uncollected carcasses remain infectious. Each activated cell is therefore given an infectious window relative to its detection date:
+
+- it becomes infectious $\Delta = -7$ days relative to detection (negative means before detection);
+- it stays infectious for $P = 21$ days.
+
+A cell can therefore act as a source before it is itself detected. The data cannot estimate $\Delta$ or $P$, so both are assumptions.
+
+## Kernel model
+
+On each time step $t$, every cell not yet activated is exposed to infection pressure from all cells infectious on that step. The infection pressure (force of infection) on cell $i$ is
+
+$$
+\lambda_i(t) = \beta_0 \sum_{j \in A(t),\, j \ne i} K(d_{ij}),
+$$
+
+where
+
+- $A(t)$ is the set of cells infectious at step $t$;
+- $d_{ij}$ is the distance (km) between the centres of cells $i$ and $j$;
+- $K(d)$ is the kernel, whose shape is estimated;
+- $\beta_0$ scales the overall strength of spread.
+
+The probability that cell $i$ is activated on step $t$ is $p_i(t) = 1 - e^{-\lambda_i(t)}$, which turns a rate into a probability between 0 and 1.
+
+*Illustrative example.* One infectious cell lies 50 km from cell $i$. With a power-law kernel, $\rho_0 = 20$ km and $\psi = 2$: $K(50) = (1 + 50/20)^{-2} = 3.5^{-2} \approx 0.082$. With $\beta_0 = 0.1$, $\lambda_i = 0.0082$ and $p_i = 1 - e^{-0.0082} \approx 0.008$: about a 0.8% chance of activation in that week.
+
+We fit and compare four kernel shapes, each with a distance scale $\rho_0$ and a shape parameter $\psi$:
+
+| Kernel | $K(d)$ | Tail at long distances |
+|---|---|---|
+| Fat-tailed | $1 / \left(1 + (d/\rho_0)^{\psi}\right)$ | power law |
+| Power law (type 2) | $(1 + d/\rho_0)^{-\psi}$ | power law |
+| Exponential (type 2) | $1 - \exp\left(-(d/\rho_0)^{-\psi}\right)$ | power law |
+| Exponential (type 3) | $\exp\left(-(d/\rho_0)^{\psi}\right)$ | falls quickly to zero |
+
+::: {.callout-note}
+No covariates enter the kernel. It is fitted on distance and timing alone; the covariates are applied afterwards and are not estimated from these data.
+:::
+
+**Assumptions.** Transmission depends only on distance between cell centres, equally in all directions; every infectious cell is equally infectious; all infections arise from other detected cells (there is no background rate for introductions from outside the detected set); and every infection is eventually detected, at the same delay everywhere.
+
+## Likelihood
+
+The likelihood combines two kinds of evidence:
+
+- each activated cell contributes the probability that it activated on the step it did, $1 - e^{-\lambda_i(t_i)}$, where $t_i$ is its activation step;
+- each cell contributes the probability that it did *not* activate on every earlier step while it was at risk, $e^{-\lambda_i(t)}$.
+
+Taking logs:
+
+$$
+\log L = \sum_{i \in S} \log\left(1 - e^{-\lambda_i(t_i)}\right) - \sum_{i = 1}^{n} \sum_{t = 1}^{r_i} \lambda_i(t),
+$$
+
+where $S$ is the set of activated cells, $n$ the number of cells, and $r_i$ the last step cell $i$ was at risk (the step before activation, or the end of the study period for cells never activated). The first term favours parameter values that put high pressure where and when detections happened. The second penalises values that put high pressure on cells that stayed free of detections; most of the information about how fast the kernel decays comes from this term.
+
+Cells activated when no other cell was infectious have no source to attribute them to. These index cases are treated as given and excluded from the first term.
+
+## Estimation
+
+Parameters were estimated by maximum likelihood (Nelder–Mead), optimised on the log scale to keep them positive. Because the likelihood can have long, flat ridges (Section 2.7), each kernel was fitted from three starting distance scales ($\rho_0$ = 5, 20 and 80 km) and the best fit kept. Approximate confidence intervals come from the curvature of the likelihood at the optimum. Kernel shapes were compared by AIC. To keep computation feasible, distances in the second term were grouped into 1 km bins; the first term uses exact distances. No maximum distance was imposed.
+
+**Checks on the implementation.** The workflow is a Python reimplementation of an earlier R analysis. We checked it in three ways:
+
+- the likelihood agreed to numerical precision with a slow, step-by-step calculation on a test dataset;
+- on data simulated from known parameters, the fitted parameters recovered the true values within their confidence intervals;
+- fitted to the same risk set as the R version, it reproduced the R estimates (log-likelihood within 0.12; $\psi$ within 0.01; $\rho_0$ within about 3%) and the same ranking of kernel shapes.
+
+## Results
+
+![Fitted kernels: median transmission rate per pair of cells per week, with 50% and 95% uncertainty bands, from the shortest observed distance (one cell width). Bands extending off the plot are marked.](../results/kernel/kernel_best.png){width=100%}
+
+| Kernel | $\Delta$AIC | $\beta_0$ | $\rho_0$ (km), 95% CI | $\psi$, 95% CI |
+|---|---|---|---|---|
+| Power law (type 2) | 0.00 | 4.96 | 5.3 (0.3–91) | 2.74 (2.31–3.25) |
+| Exponential (type 3) | 0.08 | $5.7 \times 10^{25}$ | $\approx 0$ | 0.04 |
+| Fat-tailed | 0.30 | 0.20 | 15.3 (3.0–78) | 2.65 (2.36–2.98) |
+| Exponential (type 2) | 0.36 | 0.13 | 17.6 (3.2–96) | 2.64 (2.37–2.93) |
+
+: Fitted kernels, ordered by AIC. {#tbl-kernels}
+
+**Interpretation.**
+
+- **The four shapes cannot be distinguished.** All are within 0.4 AIC units. Over the observed distances (25 km and above) they give practically the same transmission rate per pair of cells per week: about 0.042 at 25 km, 0.008 at 50 km, 0.0013 at 100 km and 0.00002 at 500 km, agreeing to within about 5% at every distance.
+- **The tail exponent $\psi$ is the robust result.** It lies between 2.64 and 2.74 for the three power-law-tailed kernels, with overlapping 95% intervals spanning roughly 2.3 to 3.3, and between 2.6 and 3.2 across every alternative fit we ran (R and Python, two grid placements).
+- **The distance scale $\rho_0$ is not identifiable at this resolution.** Its 95% intervals run from under 1 km to about 90 km. The shortest distance between cells is 25 km, and for any $\rho_0$ well below that the kernels behave as pure power laws at every observed distance. Moving the grid by a fraction of a cell changed $\rho_0$ from about 16 km to effectively zero while $\psi$ barely moved. We therefore do not interpret $\rho_0$ or $\beta_0$ individually: they trade off against each other, which is why $\beta_0$ differs by a factor of almost 40 between shapes that give the same curve.
+- **The exponential (type 3) fit is degenerate.** Its parameters have moved to an extreme of the parameter space ($\rho_0 \to 0$, $\beta_0$ very large), where its curve over the observed distances mimics a power law. Its near-equal AIC is not support for a thin-tailed kernel, and its parameters have no physical meaning. The maps use the power law (type 2) kernel.
+- **The transmission rate per pair of cells falls steeply with distance**, about 30-fold between 25 and 100 km. But the number of cells at a given distance grows in proportion to that distance, so the contribution of longer distances to new infections declines much more slowly (roughly as distance$^{-1.7}$ rather than distance$^{-2.7}$). Longer-range spread therefore matters more than the per-pair curve suggests.
+
+## National kernel layer
+
+For every cell, the fitted kernel was summed over all detected cells and divided by the largest value among undetected cells, so the layer runs from 0 to 1. Detected cells were assigned the maximum value, 1: a detected cell's own contribution at distance zero is not informed by the data, and would otherwise set the scale for every other cell.
+
+The layer sums over every detection since June 2026 with equal weight. It therefore shows **where infection pressure has accumulated over the outbreak period**, not current risk.
+
+![Kernel-only relative risk. Detected cells in blue.](../results/kernel/kernel_layer.png){width=80%}
+
+# Covariates
+
+## Waterbird relative abundance
+
+This layer is a proxy for the abundance of potential waterbird "superspreaders": species likely to drive the spread of H5N1 across the country. Candidate species are assumed to:
+
+- be highly abundant and highly or moderately dispersive;
+- have had avian influenza (any strain) detected before, including recent H5N1 detections.
+
+The species used are Greater Crested Tern, Silver Gull, Pacific Black Duck, Grey Teal, Black Swan, Australian Ibis, Pied Cormorant and Little Pied Cormorant. Australian Wood Duck and Australian Pelican were also candidates but have no eBird Status & Trends product.
+
+Weekly relative abundance maps (median, 27 km; 2023 release) for each species were downloaded from eBird Status & Trends, reprojected onto the analysis grid (bilinear interpolation), and averaged over the weeks of each month. The layer is the **sum of the species' relative abundances** in each cell. eBird relative abundance is the expected count on a standardised checklist, so the sum approximates the expected number of these waterbirds seen on such a checklist. Two consequences:
+
+- abundant, flocking species (notably Silver Gull and Grey Teal) dominate the sum;
+- species differ in how easily they are detected, which the sum does not correct for.
+
+The layer is a repeating seasonal pattern, not an observation of the current year. The maps use October.
+
+## Poultry density
+
+Chicken density (birds per km$^2$) comes from the FAO [Gridded Livestock of the World v4 (2020)](https://data.apps.fao.org/catalog/dataset/9d1e149b-d63f-4213-978b-317a8eb42d02), at 5 arc-minutes (about 10 km). Each 25 km cell takes the mean density of the source cells it covers. Cells without a GLW4 estimate inside the boundary (mainly inland lakes and the coastal fringe) were set to zero. The layer totals about 114 million birds, consistent with the national flock.
+
+The distribution is extremely skewed: half of the cells with any poultry hold less than one bird per cell, and these cells together hold 0.15% of all birds.
+
+# Risk
+
+With few outbreaks, risk factors cannot be estimated from the data, so the layers are combined by fixed rules. For cell $i$:
+
+**Wild birds.** Pressure from detections is weighted by how many waterbirds are present:
+
+$$
+R^{\text{wild}}_i = \operatorname{rescale}\left(K_i \cdot x^{\text{wb}}_i\right),
+$$
+
+where $K_i$ is the national kernel layer (0–1), $x^{\text{wb}}_i$ is the waterbird layer rescaled to 0–1, and $\operatorname{rescale}$ divides by the range across cells so the result runs from 0 to 1.
+
+**Spillover to poultry.** Spillover requires both virus arrival and birds at risk, so the two combine multiplicatively; high poultry density cannot make up for no virus pressure. Exposure rises with poultry density but with diminishing returns: the first farms in an area matter more than doubling an already dense one.
+
+$$
+R^{\text{poultry}}_i = \operatorname{rescale}\left(R^{\text{wild}}_i \cdot E_i\right), \qquad E_i = \frac{h_i}{h_i + k},
+$$
+
+where $h_i$ is poultry density (birds per km$^2$), $E_i$ is exposure (0 with no poultry, approaching 1 when dense), and $k$ is the half-saturation density at which exposure reaches half its maximum. We set $k$ to the density above which half of all birds live, about 1,030 birds per km$^2$.
+
+*Illustrative example.* A cell with $R^{\text{wild}} = 0.4$ and $h = 1{,}030$ has $E = 0.5$ and a spillover score of 0.20 before rescaling. With $h = 7{,}000$, $E = 0.87$ and the score is 0.35. With no poultry, the score is 0 whatever the wild-bird risk.
+
+**Assumptions.** Exposure saturates with density; wild-bird risk and poultry exposure are both required; the waterbird month is the same everywhere. Nothing in the data estimates $k$: a different $k$ changes how strongly the densest areas stand out. If the highest-ranked cells change substantially across a plausible range of $k$, the spillover ranking depends on this assumption.
+
+The results are ordinal scores for ranking cells, not probabilities or expected numbers of detections.
+
+![Relative risk of H5N1 in wild birds (detected cells in blue) and of spillover to poultry, October.](../results/risk/risk_maps.png){width=100%}
+
+# Uncertainty and limitations
+
+**Not yet assessed.** The sensitivity analyses below were planned but have not been run for this report. Until they are, the maps should be read as one plausible scenario.
+
+- the infectious window: $\Delta \in \{-14, -7, -2\}$ days, $P \in \{21, 35, 60\}$ days;
+- grid placement and resolution (e.g. offsets of a third of a cell; 10 and 50 km cells);
+- removing probable duplicate records;
+- the poultry half-saturation density $k$.
+
+**Detection, not just transmission.** The kernel treats every pair of nearby detections in the same window as transmission. Nearby detections also arise from where people find and report carcasses, from one mass-mortality event reported from several localities, from remaining duplicates, and from DAFF records placed at random within their localities. Part of the steep short-range decline may therefore reflect clustered detection. Correcting for it needs a detection model, for example based on human population within travelling distance; more than half of the grid cells have no resident population, so such a model needs a baseline detection rate.
+
+**Locations.** DAFF records are located only to locality, and some rural localities are comparable in size to a grid cell.
+
+**Time.** The kernel layer weights all detections since June equally, and the waterbird layer is a long-term seasonal average. The maps are therefore a summary of the outbreak period, not a current-state estimate or a forecast.
+
+**Validation.** The maps have not been tested against later detections. A direct test is to build the maps from data up to an earlier date and check whether the next detections fall in the highest-ranked cells.
