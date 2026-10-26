@@ -22,6 +22,8 @@ def run(fits_path, table_path, risk_set_path, template_path, layer_path, map_pat
         risk_set.loc[activated, ["x", "y"]].to_numpy(),
         fits[name],
     )
+    z[is_detected] = 1.0   # detected cells: maximum kernel value instead of masked
+    
     grid.cells_to_raster(
         {"relative_risk": z, "detected": is_detected.astype(float)},
         risk_set, template_path, layer_path,

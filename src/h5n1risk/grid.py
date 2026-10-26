@@ -38,22 +38,3 @@ def assign_cells(lon, lat, template_path: str, cells: pd.DataFrame) -> np.ndarra
     inside = (r >= 0) & (r < shape[0]) & (c >= 0) & (c < shape[1])
     ids[inside] = lookup[r[inside], c[inside]]
     return ids
-
-
-def cells_to_raster(bands: dict, cells: pd.DataFrame, template_path: str, out_path: str) -> None:
-    """Write per-cell values to a GeoTIFF on the template grid, one band per entry.
- 
-    bands : {band name: array with one value per row of `cells`}
-    Cells outside the boundary are missing (NaN) in every band.
-    """
-    with rasterio.open(template_path) as src:
-        profile = src.profile.copy()
-        shape = src.shape
-    profile.update(count=len(bands), dtype="float32", nodata=np.nan)
- 
-    with rasterio.open(out_path, "w", **profile) as dst:
-        for i, (name, values) in enumerate(bands.items(), start=1):
-            grid = np.full(shape, np.nan, dtype="float32")
-            grid[cells["row"], cells["col"]] = values
-            dst.write(grid, i)
-            dst.set_band_description(i, name)

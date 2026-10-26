@@ -11,6 +11,9 @@ results/
 notebooks/
 .snakemake/
 .DS_Store
+personal_notes.MD
 
 # Virtual environments
-.venv
+.venvx
+# Misc
+Open_Source_Sharing_Agreement.docx

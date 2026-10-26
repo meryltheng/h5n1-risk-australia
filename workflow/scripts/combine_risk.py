@@ -89,9 +89,9 @@ def run(kernel_path, waterbird_path, poultry_path, out_path, map_path,
         b = src.bounds
     extent = [b.left / 1000, b.right / 1000, b.bottom / 1000, b.top / 1000]
     fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-    maps.draw_risk_map(axes[0], layers["rel_risk_wildlife"], detected, extent, "H5N1 in wild birds")
+    maps.draw_risk_map(axes[0], layers["rel_risk_wildlife"], detected, extent, "H5N1 in wild birds", show_detected=False)
     im = maps.draw_risk_map(axes[1], layers["rel_risk_poultry"], detected, extent,
-                            f"Spillover to poultry ({spillover})")
+                            f"Spillover to poultry ({spillover})", show_detected=False)
     fig.colorbar(im, ax=axes, label="Relative risk", shrink=0.7)
     fig.savefig(map_path, dpi=150, bbox_inches="tight")
 
