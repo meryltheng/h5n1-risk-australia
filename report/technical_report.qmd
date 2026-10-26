@@ -115,13 +115,7 @@ Cells activated when no other cell was infectious have no source to attribute th
 
 ## Estimation
 
-Parameters were estimated by maximum likelihood (Nelder–Mead), optimised on the log scale to keep them positive. Because the likelihood can have long, flat ridges (Section 2.7), each kernel was fitted from three starting distance scales ($\rho_0$ = 5, 20 and 80 km) and the best fit kept. Approximate confidence intervals come from the curvature of the likelihood at the optimum. Kernel shapes were compared by AIC. To keep computation feasible, distances in the second term were grouped into 1 km bins; the first term uses exact distances. No maximum distance was imposed.
-
-**Checks on the implementation.** The workflow is a Python reimplementation of an earlier R analysis. We checked it in three ways:
-
-- the likelihood agreed to numerical precision with a slow, step-by-step calculation on a test dataset;
-- on data simulated from known parameters, the fitted parameters recovered the true values within their confidence intervals;
-- fitted to the same risk set as the R version, it reproduced the R estimates (log-likelihood within 0.12; $\psi$ within 0.01; $\rho_0$ within about 3%) and the same ranking of kernel shapes.
+Parameters were estimated by maximum likelihood, optimised on the log scale to keep them positive. Because the likelihood can have long, flat ridges (Section 2.7), each kernel was fitted from three starting distance scales ($\rho_0$ = 5, 20 and 80 km) and the best fit kept. Approximate confidence intervals come from the curvature of the likelihood at the optimum. Kernel shapes were compared by AIC. To keep computation feasible, distances in the second term were grouped into 1 km bins; the first term uses exact distances. No maximum distance was imposed.
 
 ## Results
 
@@ -139,7 +133,7 @@ Parameters were estimated by maximum likelihood (Nelder–Mead), optimised on th
 **Interpretation.**
 
 - **The four shapes cannot be distinguished.** All are within 0.4 AIC units. Over the observed distances (25 km and above) they give practically the same transmission rate per pair of cells per week: about 0.042 at 25 km, 0.008 at 50 km, 0.0013 at 100 km and 0.00002 at 500 km, agreeing to within about 5% at every distance.
-- **The tail exponent $\psi$ is the robust result.** It lies between 2.64 and 2.74 for the three power-law-tailed kernels, with overlapping 95% intervals spanning roughly 2.3 to 3.3, and between 2.6 and 3.2 across every alternative fit we ran (R and Python, two grid placements).
+- **The tail exponent $\psi$ is the robust result.** It lies between 2.64 and 2.74 for the three power-law-tailed kernels, with overlapping 95% intervals spanning roughly 2.3 to 3.3, and between 2.6 and 3.2 across every alternative fit we ran.
 - **The distance scale $\rho_0$ is not identifiable at this resolution.** Its 95% intervals run from under 1 km to about 90 km. The shortest distance between cells is 25 km, and for any $\rho_0$ well below that the kernels behave as pure power laws at every observed distance. Moving the grid by a fraction of a cell changed $\rho_0$ from about 16 km to effectively zero while $\psi$ barely moved. We therefore do not interpret $\rho_0$ or $\beta_0$ individually: they trade off against each other, which is why $\beta_0$ differs by a factor of almost 40 between shapes that give the same curve.
 - **The exponential (type 3) fit is degenerate.** Its parameters have moved to an extreme of the parameter space ($\rho_0 \to 0$, $\beta_0$ very large), where its curve over the observed distances mimics a power law. Its near-equal AIC is not support for a thin-tailed kernel, and its parameters have no physical meaning. The maps use the power law (type 2) kernel.
 - **The transmission rate per pair of cells falls steeply with distance**, about 30-fold between 25 and 100 km. But the number of cells at a given distance grows in proportion to that distance, so the contribution of longer distances to new infections declines much more slowly (roughly as distance$^{-1.7}$ rather than distance$^{-2.7}$). Longer-range spread therefore matters more than the per-pair curve suggests.
