@@ -20,7 +20,7 @@ uv sync
 
 Before running:
 
-- **eBird key.** Request a Status & Trends key at [ebird.org/st/request](https://ebird.org/st/request) and set it as an environment variable: add `export EBIRD_KEY="your-key"` to `~/.zshrc` (Windows: `setx EBIRD_KEY "your-key"`), then open a new terminal. Never put the key in a repository file.
+- **eBird key.** Request a Status & Trends key at [ebird.org/st/request](https://ebird.org/st/request) and save it in a file named `.env` in the repository root (e.g., via `nano .env`), containing `EBIRD_KEY="your-key"`. `.env` is ignored by git; never put the key in a tracked file.
 - **WAHIS export.** WAHIS has no documented public API, so outbreak records are exported manually from the [WAHIS event 7649](https://wahis.woah.org/#/in-event/7649/dashboard). Save the expost at the path set by `outbreak_data: wahis_file` in `config/config.yaml`. The file used for the submitted results was exported on 10 August 2026.
 - **DAFF snapshot.** The DAFF table can only be downloaded as it stands today, so an earlier snapshot cannot be recreated. The snapshot used for the submitted results, `data/raw/DAFF/events_by_species_20261021.csv`, is included and matches the default `outbreak_data: daff_snapshot: 20261021`. To use current data, set this to today's date (`YYYYMMDD`).
 

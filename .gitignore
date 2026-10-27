@@ -12,6 +12,7 @@ notebooks/
 .snakemake/
 .DS_Store
 personal_notes.MD
+.env
 
 # Virtual environments
 .venvx
