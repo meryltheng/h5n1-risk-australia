@@ -10,7 +10,7 @@ The kernel is estimated from data. The risk maps combine it with the covariates 
 
 ## Running the workflow
 
-Requires [`uv`](https://docs.astral.sh/uv/) and an internet connection. Developed on macOS.
+Requires [`uv`](https://docs.astral.sh/uv/). Developed on macOS.
 
 ```bash
 git clone https://github.com/meryltheng/h5n1-risk-australia.git

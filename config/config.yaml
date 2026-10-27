@@ -9,6 +9,7 @@ general:
   buffer_dist: 200              # buffer around the boundary when building the grid (km)
 
 outbreak_data:
+  scrape_daff: false
   daff_snapshot: "20261021"
   wahis_file: "data/raw/WAHIS/Outbreaks_Aus-H5N1_20260810.csv"
 
