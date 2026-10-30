@@ -1,11 +1,11 @@
 ---
 title: "H5N1 spatial risk: Australia"
 subtitle: "Technical report"
-author: "Meryl Theng"
+author: "Meryl Theng (on behalf of HASTE)"
 date: today
 format:
   pdf:
-    toc: true
+    toc: false
     number-sections: true
 ---
 
@@ -19,11 +19,11 @@ As part of the [WOAH Datathon](https://data-integration-department-woah.github.i
 
 **How the aim maps onto the deliverable**
 
-- *Real-time estimates:* the workflow is fully reproducible (Snakemake), so the kernel and maps are refitted from a new DAFF snapshot by changing one setting.
+- *Real-time estimates:* the workflow is fully reproducible (Snakemake), so the kernel and maps can be refitted to updated WAHIS and DAFF (Australian Department of Agriculture Fisheries and Forestry) outbreak data.
 - *Correction for detection lag:* each infected area is treated as infectious from a set number of days *before* it was detected. This lag is assumed, not estimated.
 - *Uncertainty:* kernel parameters are estimated with approximate confidence intervals, and the fitted curves are shown with uncertainty bands. Sensitivity to the assumed values is discussed in Section 5.
 
-**Two kinds of output.** The distance kernel is a statistical estimate fitted to the outbreak data. The risk surfaces are not: they combine the kernel with covariates by fixed, assumed rules and give a *relative ranking* of cells. They are not probabilities of infection.
+**Two kinds of output.** The distance kernel fitted to the outbreak data produces a statistical estimate of decay of transmission rate with increasing distance. The risk surfaces are not: they combine the kernel with covariates by fixed, assumed rules and give a *relative ranking* of cells.
 
 The analysis has three parts:
 
@@ -41,15 +41,15 @@ We estimate how the chance of H5N1 appearing in a new area changes with distance
 
 **WAHIS.** Outbreak records for H5N1 in wild birds come from the WOAH World Animal Health Information System, [event 7649](https://wahis.woah.org/#/in-event/7649/dashboard). Each record has a location and a `startDate`, the declared start of the outbreak. For wild birds this is usually when carcasses were found or sampled, not when birds were infected. WAHIS records were exported manually from the event dashboard on 10 August 2026, as WAHIS offers no documented public interface for downloading event data. This is the only input the workflow does not retrieve itself.
 
-**DAFF supplement.** The WAHIS event had not been updated since 7 August 2026, so more recent detections were taken from the Australian Government Department of Agriculture, Fisheries and Forestry ([DAFF](https://www.agriculture.gov.au/campaigns/birdflu/latest-data)) "Events by species" table, retrieved through the public Power BI service behind the page. The table can only be retrieved as it stands on the day, so each retrieval is saved as a dated snapshot; this analysis uses the snapshot of 21 October 2026.
+**DAFF supplement.** The WAHIS event had not been updated since 7 August 2026 (edit: a later update on 10 October was not included), so more recent detections were taken from the Australian Government Department of Agriculture, Fisheries and Forestry ([DAFF](https://www.agriculture.gov.au/campaigns/birdflu/latest-data)) "Events by species" table, retrieved through the public Power BI service behind the page. The table can only be retrieved as it stands on the day, so each retrieval is saved as a dated snapshot; this analysis uses the snapshot of 21 October 2026.
 
 **Locating DAFF records.** DAFF reports locations only to locality (suburb or town). Each record was matched to a locality boundary from the Australian Bureau of Statistics (ABS Suburbs and Localities, 2021) on locality name *and* state, ignoring case. ABS adds a state suffix to names used in more than one state (e.g. "Richmond (Tas.)"); the suffix was removed before matching. Each matched record was given one random point within its locality (fixed seed). Unmatched records were left without coordinates.
 
-**Combining sources.** The two sources overlap. Records with the same locality, date and species in both were flagged as probable duplicates but not removed.
+**Combining sources.** The two sources overlap. Records with the same locality, date and species in both were flagged as probable duplicates but not removed at this stage.
 
 ## Grid and risk set
 
-WAHIS and DAFF record only where the virus *was* detected. The likelihood also needs areas that were at risk but not infected, so we built that set ourselves. Australia (GADM 4.1, excluding external territories) was divided into square cells 25 km wide on the Australian Albers equal-area projection (EPSG:3577). The grid starts at the boundary's south-western corner, and every cell the boundary touches is kept, so coastal cells, where many wild-bird detections occur, are included. The same grid is used for every layer in the analysis, so cells line up exactly.
+WAHIS and DAFF record only where the virus *was* detected. The likelihood also needs areas that were at risk but not infected, so we built that set ourselves. Australia (GADM 4.1, excluding external territories) was divided into square cells 25 km wide on the Australian Albers equal-area projection (EPSG:3577). <!--The grid starts at the boundary's south-western corner, and every cell the boundary touches is kept, so coastal cells, where many wild-bird detections occur, are included.-->The same grid is used for every layer in the analysis.
 
 Each cell is either *activated*, taking the date of its earliest detection, or never activated. Time runs in steps of 7 days.
 
@@ -130,21 +130,25 @@ Parameters were estimated by maximum likelihood, optimised on the log scale to k
 
 : Fitted kernels, ordered by AIC. {#tbl-kernels}
 
-**Interpretation.**
+**Interpretation:** 
 
 - **The four shapes cannot be distinguished.** All are within 0.4 AIC units. Over the observed distances (25 km and above) they give practically the same transmission rate per pair of cells per week: about 0.042 at 25 km, 0.008 at 50 km, 0.0013 at 100 km and 0.00002 at 500 km, agreeing to within about 5% at every distance.
 - **The tail exponent $\psi$ is the robust result.** It lies between 2.64 and 2.74 for the three power-law-tailed kernels, with overlapping 95% intervals spanning roughly 2.3 to 3.3, and between 2.6 and 3.2 across every alternative fit we ran.
-- **The distance scale $\rho_0$ is not identifiable at this resolution.** Its 95% intervals run from under 1 km to about 90 km. The shortest distance between cells is 25 km, and for any $\rho_0$ well below that the kernels behave as pure power laws at every observed distance. Moving the grid by a fraction of a cell changed $\rho_0$ from about 16 km to effectively zero while $\psi$ barely moved. We therefore do not interpret $\rho_0$ or $\beta_0$ individually: they trade off against each other, which is why $\beta_0$ differs by a factor of almost 40 between shapes that give the same curve.
-- **The exponential (type 3) fit is degenerate.** Its parameters have moved to an extreme of the parameter space ($\rho_0 \to 0$, $\beta_0$ very large), where its curve over the observed distances mimics a power law. Its near-equal AIC is not support for a thin-tailed kernel, and its parameters have no physical meaning. The maps use the power law (type 2) kernel.
+- **The distance scale $\rho_0$ is not identifiable at this resolution.** Its 95% intervals span roughly 0.3–96 km. $\rho_0$ sets where the kernel flattens at short range, but no pair of cells is closer than 25 km, so the data constrain only the decline beyond that, governed mainly by $\psi$. $\rho_0$ and $\beta_0$ therefore trade off against each other ($\beta_0$ varies almost 40-fold between shapes giving the same curve), and neither is interpreted on its own.
+- **The exponential (type 3) fit is degenerate.** Its parameters have moved to an extreme of the parameter space ($\rho_0 \to 0$, $\beta_0$ very large), where its curve over the observed distances mimics a power law. Its near-equal AIC is not support for a thin-tailed kernel, and its parameters have no physical meaning. 
 - **The transmission rate per pair of cells falls steeply with distance**, about 30-fold between 25 and 100 km. But the number of cells at a given distance grows in proportion to that distance, so the contribution of longer distances to new infections declines much more slowly (roughly as distance$^{-1.7}$ rather than distance$^{-2.7}$). Longer-range spread therefore matters more than the per-pair curve suggests.
 
 ## National kernel layer
 
-For every cell, the fitted kernel was summed over all detected cells and divided by the largest value among undetected cells, so the layer runs from 0 to 1. Detected cells were assigned the maximum value, 1: a detected cell's own contribution at distance zero is not informed by the data, and would otherwise set the scale for every other cell.
+For every cell, the fitted kernel (power law type 2) was summed over all detected cells and divided by the largest value among undetected cells, so the layer runs from 0 to 1. Detected cells were assigned the maximum value, 1: a detected cell's own contribution at distance zero is not informed by the data, and would otherwise set the scale for every other cell.
 
-The layer sums over every detection since June 2026 with equal weight. It therefore shows **where infection pressure has accumulated over the outbreak period**, not current risk.
+The layer sums over every detection since June 2026 with equal weight. It therefore shows **where infection pressure has accumulated over the outbreak period**, not current risk. (Note: the infection period window is used only in fitting.)
 
 ![Kernel-only relative risk. Detected cells in blue.](../results/kernel/kernel_layer.png){width=80%}
+
+**Interpretation.** The layer sums the fitted power-law kernel over all detected cells (blue), rescaled so the highest undetected cell is 1. Pressure is highest (0.4–1) within 25–50 km of dense clusters of detections: the South Australian gulfs and Coorong, the Victorian coast and Tasmania. Isolated detections produce only small halos ($\leq 0.25$), because pressure decays steeply with distance ($\psi \approx 2.7$), but where detections are numerous their tails add up to a broad low band (0.01–0.05) across south-eastern Australia. The north and interior are below 0.01.
+
+The layer reflects distance from detections only, not habitat or hosts, and weights all detections equally regardless of date, so it shows the (detected) outbreak's cumulative footprint rather than current pressure. The width of the halos depends on the poorly identified distance scale ($\rho_0$); the decay rate ($\psi$) is more robust.
 
 # Covariates
 
@@ -162,13 +166,69 @@ Weekly relative abundance maps (median, 27 km; 2023 release) for each species we
 - abundant, flocking species (notably Silver Gull and Grey Teal) dominate the sum;
 - species differ in how easily they are detected, which the sum does not correct for.
 
-The layer is a repeating seasonal pattern, not an observation of the current year. The maps use October.
+The layer is a repeating seasonal pattern, not an observation of the current year. The maps use November (@fig-wb).
+
+```{python}
+#| echo: false
+#| label: fig-wb
+#| fig-cap: "Summed relative abundance of multiple waterbird species. Relative abundance for individual species sourced from eBird Status & Trends."
+#| fig-width: 8
+#| fig-height: 5
+#| out-width: "80%"
+
+import matplotlib.pyplot as plt
+import rasterio
+
+path = "../data/processed/waterbird_index.tif"   # relative to workflow/notebooks/
+
+with rasterio.open(path) as src:
+    nov_band = src.descriptions.index("Nov") + 1   # bands are numbered from 1
+    wb = src.read(nov_band, masked=True)     # cells outside the boundary are masked
+    b = src.bounds
+
+extent = [b.left / 1000, b.right / 1000, b.bottom / 1000, b.top / 1000]  # km
+
+fig, ax = plt.subplots()
+im = ax.imshow(wb, extent=extent, cmap="viridis")
+fig.colorbar(im, ax=ax, label="Summed relative abundance", shrink=0.7)
+ax.set_title("Waterbird index, November")
+ax.set_aspect("equal")
+ax.set_axis_off()
+plt.show()
+```
 
 ## Poultry density
 
 Chicken density (birds per km$^2$) comes from the FAO [Gridded Livestock of the World v4 (2020)](https://data.apps.fao.org/catalog/dataset/9d1e149b-d63f-4213-978b-317a8eb42d02), at 5 arc-minutes (about 10 km). Each 25 km cell takes the mean density of the source cells it covers. Cells without a GLW4 estimate inside the boundary (mainly inland lakes and the coastal fringe) were set to zero. The layer totals about 114 million birds, consistent with the national flock.
 
-The distribution is extremely skewed: half of the cells with any poultry hold less than one bird per cell, and these cells together hold 0.15% of all birds.
+The distribution is extremely skewed: half of the cells with any poultry hold less than one bird per cell, and these cells together hold 0.15% of all birds (@fig-pou).
+
+```{python}
+#| echo: false
+#| label: fig-pou
+#| fig-cap: "Chicken density (FAO GLW4, 2020) on the 25 km grid, log colour scale. Cells with no chickens are left blank."
+#| fig-width: 8
+#| fig-height: 5
+#| out-width: "80%"
+
+import matplotlib.pyplot as plt
+import rasterio
+
+path = "../data/processed/poultry.tif"   # relative to report/
+
+with rasterio.open(path) as src:
+    pou = src.read(1, masked=True)       # cells outside the boundary are masked
+    b = src.bounds
+
+extent = [b.left / 1000, b.right / 1000, b.bottom / 1000, b.top / 1000]  # km
+
+fig, ax = plt.subplots()
+im = ax.imshow(pou, extent=extent, cmap="viridis")
+fig.colorbar(im, ax=ax, label="Chickens per km²", shrink=0.7)
+ax.set_aspect("equal")
+ax.set_axis_off()
+plt.show()
+```
 
 # Risk
 
@@ -196,7 +256,17 @@ where $h_i$ is poultry density (birds per km$^2$), $E_i$ is exposure (0 with no 
 
 The results are ordinal scores for ranking cells, not probabilities or expected numbers of detections.
 
-![Relative risk of H5N1 in wild birds (detected cells in blue) and of spillover to poultry, October.](../results/risk/risk_maps.png){width=100%}
+![Relative risk of H5N1 in wild birds (detected cells in blue) and of spillover to poultry, November.](../results/risk/risk_maps.png){width=100%}
+
+**Interpretation:**
+
+Both maps are relative: each is rescaled so that its highest cell is 1, so values rank cells within a map but cannot be compared between maps or read as probabilities. Most of the continent falls in the lowest class (< 0.01) on both.
+
+**Wild birds (November).** Relative risk is concentrated along the south-east coast: coastal Victoria, with the highest values around Port Phillip Bay; the South Australian coast around the gulfs and the Coorong; and northern and eastern Tasmania. Lower but non-negligible values extend along the New South Wales coast and parts of the south-west of Western Australia. The interior is near zero, because the fitted kernel decays steeply with distance (tail exponent $\psi \approx 2.7$) and waterbird abundance is low there in November. Cells with existing detections carry the maximum kernel value, so the highest-ranked areas partly restate where H5N1 has already been found; the map is most informative for undetected cells near those areas.
+
+**Spillover to poultry.** Under the multiplicative form, a cell ranks highly only if both its wild bird risk and its chicken density are high. This leaves a single dominant area around Port Phillip Bay (Melbourne–Geelong), where high wild bird risk coincides with dense commercial poultry, and low values near Adelaide and on the New South Wales coast. Because the surface is rescaled to its maximum, this one area compresses all others towards zero; *areas in the lowest classes are lower-ranked, not risk-free*.
+
+**What the maps do and do not show.** They combine infection pressure from detections to date, as described by the fitted kernel, with waterbird abundance and chicken density, using weightings we chose rather than estimated. They have not been validated against later detections, and they are not forecasts. They also carry no uncertainty: the kernel's distance scale ($\rho_0$) is poorly identified, and the spillover ranking depends on the poultry half-saturation density ($k \approx 1030$ birds/km²) and on the multiplicative form.
 
 # Uncertainty and limitations
 
@@ -208,6 +278,8 @@ The results are ordinal scores for ranking cells, not probabilities or expected 
 - the poultry half-saturation density $k$.
 
 **Detection, not just transmission.** The kernel treats every pair of nearby detections in the same window as transmission. Nearby detections also arise from where people find and report carcasses, from one mass-mortality event reported from several localities, from remaining duplicates, and from DAFF records placed at random within their localities. Part of the steep short-range decline may therefore reflect clustered detection. Correcting for it needs a detection model, for example based on human population within travelling distance; more than half of the grid cells have no resident population, so such a model needs a baseline detection rate.
+
+**The kernel layer shows cumulative, not current, pressure.** The infectious window is used in fitting but not in mapping: the layer sums over all detections to date. A map of current risk would sum only over cells infectious on a chosen date, and could then be expressed as a weekly probability of infection rather than a relative ranking. A series of weekly maps through the outbreak would show how pressure has shifted.
 
 **Locations.** DAFF records are located only to locality, and some rural localities are comparable in size to a grid cell.
 
